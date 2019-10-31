@@ -17,7 +17,7 @@ This repo has been written to document what has been done during my internship p
 	- [Choosen architecture](#Choosen-architecture)
 
 3. [How](#How)
-	- [Mqtt Broker: CloudMqtt](#Mqtt-Broker:-CloudMqtt)
+	- [Mqtt Broker: CloudMqtt](#Mqtt-Broker-CloudMqtt)
 	- [Mqtt Clients](#Mqtt-Clients)
 		- [Python clients](#Python-clients)
 			-  [Pi 1: Motors Controller](#Pi-1-Motors-Controller)
