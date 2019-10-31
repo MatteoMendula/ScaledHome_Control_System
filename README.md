@@ -20,9 +20,9 @@ This repo has been written to document what has been done during my internship p
 	- [Mqtt Broker: CloudMqtt](#Mqtt-Broker:-CloudMqtt)
 	- [Mqtt Clients](#Mqtt-Clients)
 		- [Python clients](#Python-clients)
-			-  [Pi 1: Motors Controller](#Pi-1:-Motors-Controller)
-			- [Pi 2: Motors Controller](#Pi-2:-Motors-Controller)
-		- [Nodejs client: homeController](#Nodejs-client:-homeController)
+			-  [Pi 1: Motors Controller](#Pi-1-Motors-Controller)
+			- [Pi 2: Motors Controller](#Pi-2-Motors-Controller)
+		- [Nodejs client: homeController](#Nodejs-client-homeController)
 
 4. [Getting Started](#Getting-Started)
 
