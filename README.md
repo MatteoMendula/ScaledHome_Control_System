@@ -6,7 +6,7 @@ This repo has been written to document what has been done during my internship p
 **Table of Contents**
 
 1. [What](#What)
-	- [ScaledHome project](#ScaledHome project)
+	- [ScaledHome project](#ScaledHome-project)
 	- [Structure](#Structure)
 	- [Mqtt](#Mqtt)
 		- [Mqtt Broker](#Mqtt Broker)
@@ -84,6 +84,10 @@ Mqtt is a lightweight standard that implements the PubSub interaction and it has
 ## Mqtt Broker: CloudMqtt
 CloudMqtt is one of the more used cloud Mqtt Brokers among the IoT community, you can create easily a free account that will provide you a Mqtt Broker able to manage up to 5 clients and an unlimited number of topics.
 You can set usernames and passwords to secure your topics and connect to them from clients written in different languages.
+
+------------
+
+
 **CloudMqtt web site:**[https://www.cloudmqtt.com/](https://www.cloudmqtt.com/ "https://www.cloudmqtt.com/")
 
 ## Mqtt Clients
