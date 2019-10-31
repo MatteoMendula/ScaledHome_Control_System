@@ -9,22 +9,22 @@ This repo has been written to document what has been done during my internship p
 	- [ScaledHome project](#ScaledHome-project)
 	- [Structure](#Structure)
 	- [Mqtt](#Mqtt)
-		- [Mqtt Broker](#Mqtt Broker)
+		- [Mqtt Broker](#Mqtt-Broker)
 
 2. [Why](#Why)
 	- [Requirements](#Requirements)
 	- [Solutions](#Solutions)
-	- [Choosen architecture](#Choosen architecture)
+	- [Choosen architecture](#Choosen-architecture)
 
 3. [How](#How)
-	- [Mqtt Broker: CloudMqtt](#Mqtt Broker: CloudMqtt)
-	- [Mqtt Clients](#Mqtt Clients)
-		- [Python clients](#Python clients)
-			-  [Pi 1: Motors Controller](#Pi 1: Motors Controller)
-			- [Pi 2: Motors Controller](#Pi 2: Motors Controller)
-		- [Nodejs client: homeController](#Nodejs client: homeController)
+	- [Mqtt Broker: CloudMqtt](#Mqtt-Broker:-CloudMqtt)
+	- [Mqtt Clients](#Mqtt-Clients)
+		- [Python clients](#Python-clients)
+			-  [Pi 1: Motors Controller](#Pi-1:-Motors-Controller)
+			- [Pi 2: Motors Controller](#Pi-2:-Motors-Controller)
+		- [Nodejs client: homeController](#Nodejs-client:-homeController)
 
-4. [Getting Started](#Getting Started)
+4. [Getting Started](#Getting-Started)
 
 
 # What
