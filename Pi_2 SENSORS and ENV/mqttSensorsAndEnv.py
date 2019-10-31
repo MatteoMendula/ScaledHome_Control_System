@@ -73,13 +73,13 @@ mqttc.on_subscribe = on_subscribe
 #mqttc.on_log = on_log
 
 # Parse CLOUDMQTT_URL 
-url = 'm12.cloudmqtt.com'
+url = 'YOUR_INSTANCE.cloudmqtt.com'
 #ES url='m123.cloudmqtt.com'
-port = 11110
-topic = 'scaledhome'
+port = 99999
+topic = 'YOUR_TOPIC'
 
 # Connect
-mqttc.username_pw_set('sensorcontroller', 'sensor')
+mqttc.username_pw_set('USERNAME', 'PASSWORD')
 mqttc.connect(url, port)
 
 # Start subscribe, with QoS level 0

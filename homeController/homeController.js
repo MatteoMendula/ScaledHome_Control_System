@@ -1,14 +1,14 @@
 var mqtt    = require('mqtt');
-var topic = "scaledhome";
+var topic = "YOUR_TOPIC";
 
 var params = process.argv.slice(2);
 
 var client  = mqtt.connect("mqtt://m12.cloudmqtt.com",
                             {
-                                clientId:"mqttjs01",
-                                username: "homecontroller",
-                                password: "home",
-                                port: 11110
+                                clientId:"YOUR_ID",
+                                username: "YOUR_USERNAME",
+                                password: "YOUR_PWD",
+                                port: 99999
                             });
 
 client.subscribe(topic,{qos:2});

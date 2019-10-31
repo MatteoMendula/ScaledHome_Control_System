@@ -3,12 +3,29 @@ This repo has been written to document what has been done during my internship p
 
 ![](https://github.com/MatteoMendula/UCF_ScaledHomeMqtt/blob/master/imgs/logo.png?raw=true)
 
-
 **Table of Contents**
 
-[TOCM]
+1. [What](#What)
+	- [ScaledHome project](#ScaledHome project)
+	- [Structure](#Structure)
+	- [Mqtt](#Mqtt)
+		- [Mqtt Broker](#Mqtt Broker)
 
-[TOC]
+2. [Why](#Why)
+	- [Requirements](#Requirements)
+	- [Solutions](#Solutions)
+	- [Choosen architecture](#Choosen architecture)
+
+3. [How](#How)
+	- [Mqtt Broker: CloudMqtt](#Mqtt Broker: CloudMqtt)
+	- [Mqtt Clients](#Mqtt Clients)
+		- [Python clients](#Python clients)
+			-  [Pi 1: Motors Controller](#Pi 1: Motors Controller)
+			- [Pi 2: Motors Controller](#Pi 2: Motors Controller)
+		- [Nodejs client: homeController](#Nodejs client: homeController)
+
+4. [Getting Started](#Getting Started)
+
 
 # What
 ## ScaledHome project
@@ -72,286 +89,126 @@ You can set usernames and passwords to secure your topics and connect to them fr
 ## Mqtt Clients
 Once you have successfully created you CloudMqtt account and appropriately set the topics and the clients credentials you can subscribe and publish to the topic from different clients. The only requirements is to limit their cardinality up to 5.
 
-In order to maintain the previous work done by the Professor Turgut's team it has been decided to keep python as the only language on the two Raspberry Pi, in fact has been possibile to reuse some code in order to perform the scenario's actions on the two local controllers. While the home controller client has been coded with Nodejs because it is more suitable for a WebServer interface from the outside.
+In order to maintain the previous work done by the Professor Turgut's team it has been decided to keep Python as the only language on the two Raspberry Pi, in fact has been possibile to reuse some code in order to perform the scenario's actions on the two local controllers. While the home controller client has been coded with Nodejs because it is more suitable for a WebServer interface from the outside.
 
-## Headers (Underline)
+### Python clients
+Once you have successfully installed the required module as follows:
+`$ pip3 install paho-mqtt`
+You can import and use the paho.mqtt.client module in your client's code:
+```python
+import paho.mqtt.client as mqtt
 
-H1 Header (Underline)
-=============
+# Define event callbacks
+def on_connect(client, userdata, flags, rc):
+    print("rc: " + str(rc))
 
-H2 Header (Underline)
--------------
+def on_message(client, obj, msg):
+    msg_raw = str(msg.payload)
+    #print('[log matte - msg payload raw]: '+str(msg.payload))
+    #print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
+    msg_cleaned = msg_raw[2:len(msg_raw)-1]
+    print('[LOG - from topic '+ msg.topic +' - msg payload cleaned]: '+str(msg_cleaned))
 
-###Characters
-                
-----
+def on_publish(client, obj, mid):
+    print("mid: " + str(mid))
 
-~~Strikethrough~~ <s>Strikethrough (when enable html tag decode.)</s>
-*Italic*      _Italic_
-**Emphasis**  __Emphasis__
-***Emphasis Italic*** ___Emphasis Italic___
+def on_subscribe(client, obj, mid, granted_qos):
+    print("Subscribed: " + str(mid) + " " + str(granted_qos))
 
-Superscript: X<sub>2</sub>，Subscript: O<sup>2</sup>
+def on_log(client, obj, level, string):
+    print(string)
 
-**Abbreviation(link HTML abbr tag)**
+mqttc = mqtt.Client()
+# Assign event callbacks
+mqttc.on_message = on_message
+mqttc.on_connect = on_connect
+mqttc.on_publish = on_publish
+mqttc.on_subscribe = on_subscribe
 
-The <abbr title="Hyper Text Markup Language">HTML</abbr> specification is maintained by the <abbr title="World Wide Web Consortium">W3C</abbr>.
+# Uncomment to enable debug messages
+#mqttc.on_log = on_log
 
-###Blockquotes
+# Parse CLOUDMQTT_URL 
+url = 'YOUR_INSTANCE.cloudmqtt.com'
+#ES url='m123.cloudmqtt.com'
+port = 99999
+topic = 'YOUR_TOPIC'
 
-> Blockquotes
+# Connect
+mqttc.username_pw_set('USERNAME', 'PASSWORD')
+mqttc.connect(url, port)
 
-Paragraphs and Line Breaks
-                    
-> "Blockquotes Blockquotes", [Link](http://localhost/)。
+# Start subscribe, with QoS level 0
+mqttc.subscribe(topic, 2)
 
-###Links
+# Publish a message
+mqttc.publish(topic, "my message")
+```
 
-[Links](http://localhost/)
+While on the other hand each of them requires particular modules in oder to collect or perform the needed instructions.
 
-[Links with title](http://localhost/ "link title")
+#### Pi 1: Motors Controller
+The Motors Controller moves the windows and the doors motors performing the instructions provided by the homeController.
+It requires a particular python module to rotate the motors of a specific angle, this module is called adafruit_servokit.
+You can install it with:
+`$ pip3 install adafruit-circuitpython-servokit`
+Then you have to import and use that module as follows:
+```python
+from adafruit_servokit import ServoKit
+def closeMotor(pin):
+    kit.servo[pin].angle = getClosingAngle(pin)
+def openMotor(pin):
+    kit.servo[pin].angle = getOpeningAngle(pin)
+```
 
-`<link>` : <https://github.com>
 
-[Reference link][id/name] 
+#### Pi 2: Sensors and Environment Controller
+The Sensors and Environment Controller which controls the fan, the lamp and the temperature and moisture sensors uses a python module called RPi.GPIO which is already preinstalled in the Raspberry Pi.
+So you can just import it and uses as follows:
+```python
+import paho.mqtt.client as mqtt
+# Code used to collect temperature and moisture
+humidity, temperature = Adafruit_DHT.read_retry(sensor, pin)
 
-[id/name]: http://link-url/
+# Code used to turn on and off lamp and fan
+# LAMP
+def turnOffLamp(pin):
+	GPIO.output(pin, GPIO.LOW)
+	
+def turnOnLamp(pin):
+	GPIO.output(pin, GPIO.HIGH)
+	
+#FAN
+def turnOffFan(pin):
+	GPIO.output(pin, GPIO.LOW)
+	
+def turnOnFan(pin):
+	GPIO.output(pin, GPIO.HIGH)
+```
 
-GFM a-tail link @pandao
-
-###Code Blocks (multi-language) & highlighting
-
-####Inline code
-
-`$ npm install marked`
-
-####Code Blocks (Indented style)
-
-Indented 4 spaces, like `<pre>` (Preformatted Text).
-
-    <?php
-        echo "Hello world!";
-    ?>
-    
-Code Blocks (Preformatted text):
-
-    | First Header  | Second Header |
-    | ------------- | ------------- |
-    | Content Cell  | Content Cell  |
-    | Content Cell  | Content Cell  |
-
-####Javascript　
-
+### Nodejs client: homeController
+HomeController has been coded in Nodejs, the only required package is mqtt.
+You can import it with:
+`$ npm install mqtt`
+And then use it as follows:
 ```javascript
-function test(){
-	console.log("Hello world!");
+var mqtt    = require('mqtt');
+var client  = mqtt.connect("mqtt://m12.cloudmqtt.com",
+                            {
+                                clientId:"YOUR_ID",
+                                username: "YOUR_USERNAME",
+                                password: "YOUR_PWD",
+                                port: 99999
+                            });
+
+client.subscribe(topic,{qos:2});
+
+client.on("connect",function(){	
+    console.log("connected");
+    if (params[0] == "closeAll"){
+        client.publish(topic, "close all");
+	}
 }
- 
-(function(){
-    var box = function(){
-        return box.fn.init();
-    };
-
-    box.prototype = box.fn = {
-        init : function(){
-            console.log('box.init()');
-
-			return this;
-        },
-
-		add : function(str){
-			alert("add", str);
-
-			return this;
-		},
-
-		remove : function(str){
-			alert("remove", str);
-
-			return this;
-		}
-    };
-    
-    box.fn.init.prototype = box.fn;
-    
-    window.box =box;
-})();
-
-var testBox = box();
-testBox.add("jQuery").remove("jQuery");
 ```
-
-####HTML code
-
-```html
-<!DOCTYPE html>
-<html>
-    <head>
-        <mate charest="utf-8" />
-        <title>Hello world!</title>
-    </head>
-    <body>
-        <h1>Hello world!</h1>
-    </body>
-</html>
-```
-
-###Images
-
-Image:
-
-![](https://pandao.github.io/editor.md/examples/images/4.jpg)
-
-> Follow your heart.
-
-![](https://pandao.github.io/editor.md/examples/images/8.jpg)
-
-> 图为：厦门白城沙滩 Xiamen
-
-图片加链接 (Image + Link)：
-
-[![](https://pandao.github.io/editor.md/examples/images/7.jpg)](https://pandao.github.io/editor.md/examples/images/7.jpg "李健首张专辑《似水流年》封面")
-
-> 图为：李健首张专辑《似水流年》封面
-                
-----
-
-###Lists
-
-####Unordered list (-)
-
-- Item A
-- Item B
-- Item C
-     
-####Unordered list (*)
-
-* Item A
-* Item B
-* Item C
-
-####Unordered list (plus sign and nested)
-                
-+ Item A
-+ Item B
-    + Item B 1
-    + Item B 2
-    + Item B 3
-+ Item C
-    * Item C 1
-    * Item C 2
-    * Item C 3
-
-####Ordered list
-                
-1. Item A
-2. Item B
-3. Item C
-                
-----
-                    
-###Tables
-                    
-First Header  | Second Header
-------------- | -------------
-Content Cell  | Content Cell
-Content Cell  | Content Cell 
-
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
-
-| Function name | Description                    |
-| ------------- | ------------------------------ |
-| `help()`      | Display the help window.       |
-| `destroy()`   | **Destroy your computer!**     |
-
-| Item      | Value |
-| --------- | -----:|
-| Computer  | $1600 |
-| Phone     |   $12 |
-| Pipe      |    $1 |
-
-| Left-Aligned  | Center Aligned  | Right Aligned |
-| :------------ |:---------------:| -----:|
-| col 3 is      | some wordy text | $1600 |
-| col 2 is      | centered        |   $12 |
-| zebra stripes | are neat        |    $1 |
-                
-----
-
-####HTML entities
-
-&copy; &  &uml; &trade; &iexcl; &pound;
-&amp; &lt; &gt; &yen; &euro; &reg; &plusmn; &para; &sect; &brvbar; &macr; &laquo; &middot; 
-
-X&sup2; Y&sup3; &frac34; &frac14;  &times;  &divide;   &raquo;
-
-18&ordm;C  &quot;  &apos;
-
-##Escaping for Special Characters
-
-\*literal asterisks\*
-
-##Markdown extras
-
-###GFM task list
-
-- [x] GFM task list 1
-- [x] GFM task list 2
-- [ ] GFM task list 3
-    - [ ] GFM task list 3-1
-    - [ ] GFM task list 3-2
-    - [ ] GFM task list 3-3
-- [ ] GFM task list 4
-    - [ ] GFM task list 4-1
-    - [ ] GFM task list 4-2
-
-###Emoji mixed :smiley:
-
-> Blockquotes :star:
-
-####GFM task lists & Emoji & fontAwesome icon emoji & editormd logo emoji :editormd-logo-5x:
-
-- [x] :smiley: @mentions, :smiley: #refs, [links](), **formatting**, and <del>tags</del> supported :editormd-logo:;
-- [x] list syntax required (any unordered or ordered list supported) :editormd-logo-3x:;
-- [x] [ ] :smiley: this is a complete item :smiley:;
-- [ ] []this is an incomplete item [test link](#) :fa-star: @pandao; 
-- [ ] [ ]this is an incomplete item :fa-star: :fa-gear:;
-    - [ ] :smiley: this is an incomplete item [test link](#) :fa-star: :fa-gear:;
-    - [ ] :smiley: this is  :fa-star: :fa-gear: an incomplete item [test link](#);
-            
-###TeX(LaTeX)
-   
-$$E=mc^2$$
-
-Inline $$E=mc^2$$ Inline，Inline $$E=mc^2$$ Inline。
-
-$$\(\sqrt{3x-1}+(1+x)^2\)$$
-                    
-$$\sin(\alpha)^{\theta}=\sum_{i=0}^{n}(x^i + \cos(f))$$
-                
-###FlowChart
-
-```flow
-st=>start: Login
-op=>operation: Login operation
-cond=>condition: Successful Yes or No?
-e=>end: To admin
-
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
-
-###Sequence Diagram
-                    
-```seq
-Andrew->China: Says Hello 
-Note right of China: China thinks\nabout it 
-China-->Andrew: How are you? 
-Andrew->>China: I am good thanks!
-```
-
-###End
+## Getting Started
+Simply run all the clients and send instruction or collect data on your homeController.
