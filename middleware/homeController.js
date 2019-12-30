@@ -23,15 +23,15 @@ function writeFile(file_name,message){
 }
 
 function handleLamp(client,action){
-    console.log("Turning lamp "+action);
+    console.log("[LOG handleLamp] Turning lamp "+action);
     client.publish(topic, "lamp "+action);
 }
 
 // This function turns on and off the lamp depending on the SH outside temperature
 // the goal is to force a fluctuation of the temperature in the range [min_temperature_SH,max_temperature_SH]
 function environmentSimulation(client, out_temperature){
-    console.log("Received out temperature = ", out_temperature);
-    if (out_temperature >= max_temperature_SH - delta) {
+    console.log("[LOG environmentSimulation] Received out temperature = ", out_temperature);
+    if (out_temperature >= max_temperature_SH - delata) {
         handleLamp(client,"off");
     }else if (out_temperature <= min_temperature_SH + delta) {
         handleLamp(client,"on");
@@ -50,20 +50,20 @@ client.subscribe(topic,{qos:2});
 
 //var client  = mqtt.connect('mqtt://test.mosquitto.org');
 client.on("connect",function(){	
-    console.log("connected to topic", client);
+    console.log("connected to topic");
 });
 
 client.on('message',function(topic, message){
-	console.log("message is "+ message);
-    console.log("topic is "+ topic);
 
-    if (!message.includes("error")){
+    var mex = ''+message;
+
+    if (!mex.includes("error")){
         console.log("writing on file.. ");
-        writeFile("./data/data.csv",message);
+        writeFile("./data/data.csv",mex);
 
-        if (!message.includes("TIME") && mode == "auto"){
-            var array = message.slice(',');
-            var out_temperature = array[1];
+        if (mode == "auto" && mex.includes("record:")){
+
+            var out_temperature = ''+mex.split("record:")[1].split(',')[1];
 
             environmentSimulation(client, out_temperature);            
 
@@ -71,9 +71,8 @@ client.on('message',function(topic, message){
         }
 
     }else{
-        console.log("Bad data, discarding: ",message);
+        console.log("Bad data, discarding: ",mex);
     }
-    
     
 });
 
@@ -119,3 +118,5 @@ if (params[0] == "closeAll"){
 }else{
     console.log("Unknown command");
 }
+
+console.log("mode: ",mode);
