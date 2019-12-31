@@ -31,7 +31,7 @@ function handleLamp(client,action){
 // the goal is to force a fluctuation of the temperature in the range [min_temperature_SH,max_temperature_SH]
 function environmentSimulation(client, out_temperature){
     console.log("[LOG environmentSimulation] Received out temperature = ", out_temperature);
-    if (out_temperature >= max_temperature_SH - delata) {
+    if (out_temperature >= max_temperature_SH - delta) {
         handleLamp(client,"off");
     }else if (out_temperature <= min_temperature_SH + delta) {
         handleLamp(client,"on");
