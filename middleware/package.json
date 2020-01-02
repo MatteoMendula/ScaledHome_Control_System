@@ -1,9 +1,14 @@
 {
   "name": "homecontroller",
+  "engines": {
+    "node": "12.13.0",
+    "npm": "6.x"
+  },
   "version": "1.0.0",
   "description": "",
   "main": "homeController.js",
   "scripts": {
+    "start": "node homeController.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
