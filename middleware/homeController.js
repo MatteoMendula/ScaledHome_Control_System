@@ -62,6 +62,8 @@ client.on('message',function(topic, message){
 
     var mex = ''+message;
 
+    //console.log("new mex", mex);
+
     if (!mex.includes("error")){
         
         if (process.env._ && !process.env._.indexOf("heroku"))
