@@ -64,7 +64,8 @@ client.on('message',function(topic, message){
 
     if (!mex.includes("error")){
         
-        saveOnFile("./data","data.csv",mex);
+        if (process.env._ && !process.env._.indexOf("heroku"))
+            saveOnFile("./data","data.csv",mex);
 
         if (mode == "auto" && mex.includes("record:")){
 
