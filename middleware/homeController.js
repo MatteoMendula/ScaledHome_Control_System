@@ -27,6 +27,11 @@ function handleLamp(client,action){
     client.publish(topic, "lamp "+action);
 }
 
+function saveOnFile(path, file_name,content){
+    console.log("writing on file.. ");
+    writeFile(path+'/'+file_name,content);
+}
+
 // This function turns on and off the lamp depending on the SH outside temperature
 // the goal is to force a fluctuation of the temperature in the range [min_temperature_SH,max_temperature_SH]
 function environmentSimulation(client, out_temperature){
@@ -58,8 +63,8 @@ client.on('message',function(topic, message){
     var mex = ''+message;
 
     if (!mex.includes("error")){
-        console.log("writing on file.. ");
-        writeFile("./data/data.csv",mex);
+        
+        saveOnFile("./data","data.csv",mex);
 
         if (mode == "auto" && mex.includes("record:")){
 
