@@ -1,0 +1,19 @@
+{
+  "name": "ucf_scaledhomemqtt",
+  "version": "1.0.0",
+  "description": "This repo has been written to document what has been done during my internship period at University of Central Florida (Orlando, FL) in terms of architecture design and distributed system techniques in order to make the ScaledHome project available remotely via a MQTT server broker.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatteoMendula/UCF_ScaledHomeMqtt.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MatteoMendula/UCF_ScaledHomeMqtt/issues"
+  },
+  "homepage": "https://github.com/MatteoMendula/UCF_ScaledHomeMqtt#readme"
+}
