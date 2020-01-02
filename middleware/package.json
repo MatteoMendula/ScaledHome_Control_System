@@ -8,8 +8,7 @@
   "description": "",
   "main": "homeController.js",
   "scripts": {
-    "start": "node homeController.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node homeController.js"
   },
   "author": "",
   "license": "ISC",
