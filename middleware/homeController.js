@@ -32,6 +32,18 @@ function saveOnFile(path, file_name,content){
     writeFile(path+'/'+file_name,content);
 }
 
+function updateMaxTemp(new_temp){
+    var previous_temp = max_temperature_SH;
+    max_temperature_SH = new_temp;
+    console.log("Max temp has been updated from: "+previous_temp+" to: "+max_temperature_SH);
+}
+
+function updateMinTemp(new_temp){
+    var previous_temp = min_temperature_SH;
+    min_temperature_SH = new_temp;
+    console.log("Max temp has been updated from: "+previous_temp+" to: "+min_temperature_SH);
+}
+
 // This function turns on and off the lamp depending on the SH outside temperature
 // the goal is to force a fluctuation of the temperature in the range [min_temperature_SH,max_temperature_SH]
 function environmentSimulation(client, out_temperature){
@@ -40,6 +52,10 @@ function environmentSimulation(client, out_temperature){
         handleLamp(client,"off");
     }else if (out_temperature <= min_temperature_SH + delta) {
         handleLamp(client,"on");
+    }else if (out_temperature < min_temperature_SH){
+        updateMinTemp(out_temperature);
+    }else if (out_temperature > max_temperature_SH){
+        updateMaxTemp(out_temperature);
     }
 }
 
