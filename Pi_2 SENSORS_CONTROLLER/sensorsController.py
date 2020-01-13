@@ -28,7 +28,7 @@ def on_log(client, obj, level, string):
 
 mqttc = mqtt.Client()
 # Assign event callbacks
-mqttc.on_message = on_message
+#mqttc.on_message = on_message
 mqttc.on_connect = on_connect
 mqttc.on_publish = on_publish
 mqttc.on_subscribe = on_subscribe
@@ -57,11 +57,10 @@ def checkTemp (humidity, temperature, h_lower_bound, h_upper_bound, t_lower_boun
         control = False
     elif temperature<t_lower_bound or temperature>t_upper_bound :
         control = False
-    elif humidity<h_lower_bound or himidity>h_upper_bound :
+    elif humidity<h_lower_bound or humidity>h_upper_bound :
         control = False
     return control
     
-
 def convertTempFromCtoF (celsius):
     fahrenheit = (celsius * 9.0 / 5.0) + 32
     return fahrenheit
@@ -88,7 +87,7 @@ seconds = 0
 separator = ','
 attempts_limit = 5
 
-# humidity is a percentage => h ∈ [0,100]
+# humidity is a percentage => h belongs to [0,100]
 humidity_lower_bound = 0
 humidity_upper_bound = 100
 
@@ -126,9 +125,8 @@ try:
         print("starting to collect data")
         
         for pin in gpioArray:
-            print("Collecting temperature from pin: "+pin)
+            print("Collecting temperature from pin: "+str(pin))
             attempts = 0
-
             while True:
                 humidity, temperature_celsius = Adafruit_DHT.read_retry(sensor, pin)
                 temperature_fahrenheit = convertTempFromCtoF(temperature_celsius)
@@ -138,11 +136,12 @@ try:
                 elif (attempts >= attempts_limit):
                     humidity = "error"
                     temperature_fahrenheit = "error"
+                    break
                 else:
                     attempts += 1
                     sleep(1)
             
-            message+= separator+str(temp)
+            message+= separator+str(temperature_fahrenheit)
             message+=  separator+str(humidity)
             
         time.sleep(1)
@@ -152,7 +151,8 @@ try:
                                        
         #set a new reading every new_reading_interval seconds    
         for i in range(0,new_reading_interval):
-            print('Next reading in: ' + str(i)+'/60', flush=True)
+            #print('Next reading in: ' + str(i)+'/60', flush=True)
+            print('Next reading in: ' + str(i)+'/60')
             time.sleep(1)
             seconds += 1
             
@@ -161,7 +161,7 @@ except KeyboardInterrupt:
 except Exception as e: 
     	print(e)
 finally:
-        GPIO.cleanup()
+        print("Execution is terminated")
 
 # Continue the network loop, exit when an error occurs
 rc = 0
