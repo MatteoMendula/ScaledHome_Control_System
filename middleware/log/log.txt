@@ -1,0 +1,46 @@
+[LOG - inputInterface] type: Info - message: [LOG - inputInterface] type: Info - message: sent cmd-> open 1
+
+[LOG - inputInterface] type: Info - message: [LOG - inputInterface] type: Info - message: sent cmd-> open 2
+
+[LOG - inputInterface] type: Info - message: [LOG - inputInterface] type: Info - message: sent cmd-> open all
+
+[LOG - inputInterface] type: Info - message: [LOG - inputInterface] type: Info - message: sent cmd-> open 1
+
+[LOG - inputInterface] type: Info - message: [LOG - inputInterface] type: Info - message: sent cmd [object Object]-> open all
+
+[LOG - inputInterface] type: Info - message: [LOG - inputInterface] type: Info - message: sent cmd-> open all
+
+[LOG - inputInterface] type: Info - message: sent cmd-> open all
+[LOG - inputInterface] type: Info - message: sent cmd-> close all
+[LOG - inputInterface] type: Info - message: sent cmd-> open all
+[LOG - inputInterface] type: Info - message: sent cmd-> open 1
+[LOG - inputInterface] type: Info - message: sent cmd-> open 1
+[LOG - inputInterface] type: Info - message: sent cmd-> open all
+[LOG - inputInterface] type: Info - message: sent cmd-> open all
+[LOG - inputInterface] type: Info - message: sent cmd-> open all
+[LOG - inputInterface] type: Info - message: sent cmd-> close all
+[LOG - inputInterface] type: Info - message: sent cmd-> open all doors
+[LOG - inputInterface] type: Info - message: sent cmd-> open all windows
+[LOG - inputInterface] type: Info - message: sent cmd-> lamp on
+[LOG - inputInterface] type: Info - message: sent cmd-> lamp off
+[LOG - inputInterface] type: Info - message: sent cmd-> open 1
+[LOG - inputInterface] type: Info - message: sent cmd-> open 2
+[LOG - inputInterface] type: Info - message: sent cmd-> open 3
+[LOG - inputInterface] type: Info - message: sent cmd-> open 4
+[LOG - inputInterface] type: Info - message: sent cmd-> open 6
+[LOG - inputInterface] type: Info - message: sent cmd-> open 5
+[LOG - inputInterface] type: Info - message: sent cmd-> open 8
+[LOG - inputInterface] type: Info - message: sent cmd-> close 0
+[LOG - inputInterface] type: Info - message: sent cmd-> close 1
+[LOG - inputInterface] type: Info - message: sent cmd-> open 1
+[LOG - inputInterface] type: Info - message: sent cmd-> open 1
+[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: initial_value to: initial_value
+[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: initial_value to: initial_value
+[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: initial_value to: 12
+[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 12
+[LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 12
+Turning lamp onTurning lamp off[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 12
+[LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 12
+Turning lamp onTurning lamp off[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 12
+[LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 12
+Turning lamp onTurning lamp offTurning lamp onTurning lamp off

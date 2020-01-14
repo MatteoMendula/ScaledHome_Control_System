@@ -141,6 +141,7 @@ if (params[0] == "closeAll"){
     mode = "auto";
 }else{
     console.log("Unknown command");
+    client.publish(topic, "unknown");
 }
 
 console.log("mode: ",mode);
