@@ -1,1 +1,4 @@
 node_modules/
+.gitignore/
+log.txt/
+data.csv/
