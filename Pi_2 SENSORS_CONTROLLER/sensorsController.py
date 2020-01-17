@@ -96,7 +96,8 @@ temperature_upper_bound = 90
 
 new_reading_interval = 30
 
-message = 'TIME'+separator
+message = "header:"
+message += 'TIME'+separator
 message += 'OUT_T[*K]'+separator
 message += 'OUT_H[%]'+separator
 message += 'T6[*K]'+separator
