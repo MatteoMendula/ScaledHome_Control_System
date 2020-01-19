@@ -94,9 +94,10 @@ humidity_upper_bound = 100
 temperature_lower_bound = 60
 temperature_upper_bound = 90
 
-new_reading_interval = 60
+new_reading_interval = 30
 
-message = 'TIME'+separator
+message = "header:"
+message += 'TIME'+separator
 message += 'OUT_T[*K]'+separator
 message += 'OUT_H[%]'+separator
 message += 'T6[*K]'+separator
@@ -120,7 +121,7 @@ message = ''
 
 try:
     while(True):
-        message += str(datetime.now())
+        message = "record:"+str(datetime.now())
         
         print("starting to collect data")
         
@@ -139,7 +140,7 @@ try:
                     break
                 else:
                     attempts += 1
-                    sleep(1)
+                    time.sleep(1)
             
             message+= separator+str(temperature_fahrenheit)
             message+=  separator+str(humidity)
@@ -152,7 +153,7 @@ try:
         #set a new reading every new_reading_interval seconds    
         for i in range(0,new_reading_interval):
             #print('Next reading in: ' + str(i)+'/60', flush=True)
-            print('Next reading in: ' + str(i)+'/60')
+            print('Next reading in: ' + str(i)+'/'+str(new_reading_interval))
             time.sleep(1)
             seconds += 1
             
@@ -168,9 +169,3 @@ rc = 0
 while rc == 0:
     rc = mqttc.loop()
 print("rc: " + str(rc))
-
-
-
-
-
-
