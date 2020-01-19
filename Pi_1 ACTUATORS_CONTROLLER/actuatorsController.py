@@ -197,7 +197,7 @@ topic = 'scaledhome'
 
 # Connect
 #mqttc.username_pw_set(url.username, url.password)
-mqttc.username_pw_set('actuatorcontroller', 'actuator')
+mqttc.username_pw_set('actuators_controller', 'actuators')
 mqttc.connect(url, port)
 
 # Start subscribe, with QoS level 0

@@ -43,7 +43,7 @@ port = 11110
 topic = 'scaledhome'
 
 # Connect
-mqttc.username_pw_set('sensorcontroller', 'sensor')
+mqttc.username_pw_set('sensors_controller', 'sensors')
 mqttc.connect(url, port)
 
 # Start subscribe, with QoS level 0

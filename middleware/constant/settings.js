@@ -13,7 +13,8 @@ const allowed_commands =
                             "fan on",
                             "fan off",
                             "ac on",
-                            "ac off"
+                            "ac off",
+                            "activate"
                         ];  
 
 const allowed_motors =    [

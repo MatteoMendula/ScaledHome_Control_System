@@ -15,17 +15,37 @@ var rl = readline.createInterface({
 });
 //*/
 var previous_temp = "initial_value";
+var same_temp_counter = 0;
 var max_temperature_SH = -100000;
 var min_temperature_SH = 100000;
+
 var lamp_state = 0; // -> maybe this has to be moved to a singleton class
+var sensors_controller = {
+    state: 0,
+    conn_attempts: 0
+};
+var actuators_controller = {
+    state: 0,
+    conn_attempts: 0
+};
 
 // estimated uncertainty of measurement
-var delta = 0.2;
+// var delta = 0.2;
+
+function init(client, topic){
+    var log = "Starting init procedure";
+    utils.myConsoleLog("init",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("init",log));
+    //handleLamp(client,"off");
+
+    client.publish(topic, "discovery: middleware looking for clients");
+
+}
 
 function handleLamp(client,action){
     var log = "Turning lamp "+action;
     utils.myConsoleLog("handleLamp",log);
-    saveOnFile("./log","log.txt",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("handleLamp",log));
     client.publish(topic, "lamp "+action);
     lamp_state = (action == "on") ? 1 : 0;
 }
@@ -81,14 +101,27 @@ function checkTempBounds(client, out_temperature){
 
     // check if it is in a delta range?
     if (previous_temp == out_temperature){
-        utils.myConsoleLog("checkTempBounds","Reached bound at "+out_temperature+"°F -> changing lamp state")
-        if (lamp_state == 0){
-            handleLamp(client,"on");
-        } else if (lamp_state == 1){
-            handleLamp(client,"off");
-        }else{
-            utils.myConsoleLog("checkTempBounds","Unknown lamp state");
+
+        same_temp_counter++;
+
+        console.log("same temperature counter:",same_temp_counter);
+
+        if (same_temp_counter > 3){
+            
+            utils.myConsoleLog("checkTempBounds","Reached bound at "+out_temperature+"°F -> changing lamp state")
+            if (lamp_state == 0){
+                handleLamp(client,"on");
+            } else if (lamp_state == 1){
+                handleLamp(client,"off");
+            }else{
+                utils.myConsoleLog("checkTempBounds","Unknown lamp state");
+            }
+
+            same_temp_counter = 0;
+
         }
+    }else{
+        same_temp_counter = 0;
     }
 
     previous_temp = out_temperature;
@@ -97,7 +130,7 @@ function checkTempBounds(client, out_temperature){
 var client  = mqtt.connect("mqtt://m12.cloudmqtt.com",
                             {
                                 clientId:"mqttjs01",
-                                username: "homecontroller",
+                                username: "home_controller",
                                 password: "home",
                                 port: 11110
                             });
@@ -106,6 +139,7 @@ client.subscribe(topic,{qos:2});
 
 client.on("connect",function(){	
     utils.myConsoleLog("main","connected to topic \"" + topic + "\"");
+    init(client,topic);
 });
 
 client.on('message',function(topic, message){
@@ -116,18 +150,27 @@ client.on('message',function(topic, message){
 
     if (!mex.includes("error")){
         
-        
-        saveOnFile("./data","data.csv",mex.split("record:")[1]);    
-
+        var record = undefined;
+          
         if (mex.includes("record:")){
 
-            var out_temperature = ''+mex.split("record:")[1].split(',')[1];
+            record = mex.split("record:")[1].split(',')
 
-            checkTempBounds(client, out_temperature);            
+            var out_temperature = ''+record[1];
+
+            checkTempBounds(client, out_temperature);   
+        }else if (mex.includes("header:")){
+            record = mex.split("header:")[1];
+        }
+        
+        if (record != undefined){
+            saveOnFile("./data","data.csv",record);  
         }
 
+    }else if(mex.includes("discovery:")){
+        var client = 
     }else{
-        var log = "Bad data, discarding: "+mex;
+        var log = "Bad message, discarding: "+mex;
         utils.myConsoleLog("main",log,1);
         saveOnFile("./log","log.txt",myStringLog("main",log,1));
     }
@@ -151,7 +194,7 @@ rl.prompt();
   
       if ( (settings.allowed_commands.includes(cmd)) || 
               ((cmd.split(" ")[0] == "open" || cmd.split(" ")[0] == "close")&& settings.allowed_motors.includes(parseInt(cmd.split(" ")[1])))){
-            client.publish(topic,cmd);
+            client.publish(topic,"cmd:"+cmd);
             var log = "sent cmd-> "+cmd;
             utils.myConsoleLog("inputInterface",log);
             saveOnFile("./log","log.txt",utils.myStringLog("inputInterface",log,0));

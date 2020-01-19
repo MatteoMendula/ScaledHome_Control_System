@@ -1,0 +1,16 @@
+[LOG - init] type: Info - message: Starting init procedure
+[LOG - handleLamp] type: Info - message: Turning lamp off
+[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 73.4
+[LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 73.4
+[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 73.4 to: 71.6
+[LOG - handleLamp] type: Info - message: Turning lamp on
+[LOG - handleLamp] type: Info - message: Turning lamp off
+[LOG - init] type: Info - message: Starting init procedure
+[LOG - handleLamp] type: Info - message: Turning lamp off
+[LOG - init] type: Info - message: Starting init procedure
+[LOG - handleLamp] type: Info - message: Turning lamp off
+[LOG - inputInterface] type: Info - message: sent cmd-> activate
+[LOG - inputInterface] type: Info - message: sent cmd-> activate
+[LOG - inputInterface] type: Info - message: sent cmd-> activate
+[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 71.6
+[LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 71.6
