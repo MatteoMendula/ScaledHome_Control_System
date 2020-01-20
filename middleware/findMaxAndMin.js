@@ -19,35 +19,110 @@ var same_temp_counter = 0;
 var max_temperature_SH = -100000;
 var min_temperature_SH = 100000;
 
-var lamp_state = 0; // -> maybe this has to be moved to a singleton class
+var lamp_state = "initial_value"; // -> maybe this has to be moved to a singleton class
+var fan_state = "initial_value";
+var ac_State = "initial_value";
+var heater_state = "initial_value";
+
 var sensors_controller = {
+    id: "sensors_controller",
     state: 0,
     conn_attempts: 0
 };
 var actuators_controller = {
+    id: "actuators_controller",
     state: 0,
     conn_attempts: 0
 };
 
+var index_motors = [...Array(16).keys()];
+var motors_state = {};
+
 // estimated uncertainty of measurement
 // var delta = 0.2;
 
-function init(client, topic){
-    var log = "Starting init procedure";
-    utils.myConsoleLog("init",log);
-    saveOnFile("./log","log.txt",utils.myStringLog("init",log));
+function initMiddlware(client, topic){
+    var log = "Middleware init procedure";
+    utils.myConsoleLog("initMiddlware",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("initMiddlware",log));
     //handleLamp(client,"off");
 
     client.publish(topic, "discovery: middleware looking for clients");
-
 }
 
-function handleLamp(client,action){
+function initActuatorsController(client, topic){
+    var log = actuators_controller.id+" init procedure";
+    utils.myConsoleLog("initActuatorsController",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("initActuatorsController",log));
+
+    handleLamp(client,topic,"off");
+    handleHeater(client,topic,"off");
+    handleAc(client,topic,"off");
+    handleFan(client,topic,"off");
+    handleMotors(client,topic,"close");
+}
+
+function initSensorsController(client,topic){
+    var log = sensors_controller.id+" init procedure";
+    utils.myConsoleLog("initSensorsController",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("initSensorsController",log));
+
+    requestNewRecord(client,topic);
+}
+
+function handleLamp(client,topic,action){
     var log = "Turning lamp "+action;
     utils.myConsoleLog("handleLamp",log);
     saveOnFile("./log","log.txt",utils.myStringLog("handleLamp",log));
     client.publish(topic, "lamp "+action);
     lamp_state = (action == "on") ? 1 : 0;
+}
+
+function handleHeater(client,topic,action){
+    var log = "Turning heater "+action;
+    utils.myConsoleLog("handleHeater",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("handleHeater",log));
+    client.publish(topic, "heater "+action);
+    heater_state = (action == "on") ? 1 : 0;
+}
+
+function handleAc(client,topic,action){
+    var log = "Turning ac "+action;
+    utils.myConsoleLog("handleAc",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("handleAc",log));
+    client.publish(topic, "ac "+action);
+    ac_State = (action == "on") ? 1 : 0;
+}
+
+function handleFan(client,topic,action){
+    var log = "Turning fan "+action;
+    utils.myConsoleLog("handleFan",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("handleFan",log));
+    client.publish(topic, "fan "+action);
+    fan_state = (action == "on") ? 1 : 0;
+}
+
+function handleMotors(client,topic,action,pin = "all"){
+    if (pin == "all" || index_motors.includes(pin)){
+        var log = (action == "open") ? "Opening "+pin : "Closing "+pin;
+        utils.myConsoleLog("handleMotors",log);
+        saveOnFile("./log","log.txt",utils.myStringLog("handleMotors",log));
+        client.publish(topic, action+' '+pin);
+        if (pin == "all"){
+            for (var index in index_motors){
+                motors_state[index] = action;
+            }
+        }else{
+            motors_state[pin] = action;
+        }
+    }
+}
+
+function requestNewRecord(client,topic){
+    var log = "Requesting new record";
+    utils.myConsoleLog("requestData",log);
+    saveOnFile("./log","log.txt",utils.myStringLog("requestData",log));
+    client.publish(topic, "request: new full record");
 }
 
 function writeFile(file_name,message){
@@ -139,7 +214,7 @@ client.subscribe(topic,{qos:2});
 
 client.on("connect",function(){	
     utils.myConsoleLog("main","connected to topic \"" + topic + "\"");
-    init(client,topic);
+    initMiddlware(client,topic);
 });
 
 client.on('message',function(topic, message){
@@ -161,14 +236,24 @@ client.on('message',function(topic, message){
             checkTempBounds(client, out_temperature);   
         }else if (mex.includes("header:")){
             record = mex.split("header:")[1];
+        }else if(mex.includes("discovery_reply:")){
+            var client_id = mex.split("discovery_reply:")[1];
+            if (client_id.includes(sensors_controller.id)){
+                sensors_controller.state = 1;
+                record = sensors_controller.id + " is on";
+                initSensorsController(client, topic);
+            }else if (client_id.includes(actuators_controller.id)){
+                actuators_controller.state = 1;
+                record = actuators_controller.id + " is on";
+                initActuatorsController(client, topic);
+            }
+            utils.myConsoleLog("main mqtt onmessage", record);
         }
         
         if (record != undefined){
             saveOnFile("./data","data.csv",record);  
         }
 
-    }else if(mex.includes("discovery:")){
-        var client = 
     }else{
         var log = "Bad message, discarding: "+mex;
         utils.myConsoleLog("main",log,1);
