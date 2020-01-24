@@ -6,6 +6,10 @@ import os
 import RPi.GPIO as GPIO
 from datetime import datetime
 
+url = 'm12.cloudmqtt.com'
+port = 11110
+topic = 'scaledhome'
+
 #-------------------------------- SERVO KIT COMMANDS
 kit = ServoKit(channels=16)
 
@@ -108,62 +112,69 @@ def on_message(client, obj, msg):
     #print(msg.topic + " " + str(msg.qos) + " " + str(msg.payload))
     msg_cleaned = msg_raw[2:len(msg_raw)-1]
     print('[LOG - from topic '+ msg.topic +' - msg payload cleaned]: '+str(msg_cleaned))
-    words = msg_cleaned.split()
-    if msg_cleaned == "open all":
-        print('Opening all doors')
-        openAll()
-    elif msg_cleaned == "close all":
-        print('Closing all doors')
-        closeAll()
-    elif msg_cleaned == 'open all doors':
-        print("Opening all doors")
-        openAllDoors()
-    elif msg_cleaned == 'close all doors':
-        print("Closing all doors")
-        closeAllDoors()
-    elif msg_cleaned == 'open all windows':
-        print("Opening all windows")
-        openAllWindows()
-    elif msg_cleaned == 'close all windows':
-        print("Closing all windows")
-        closeAllWindows()
-    elif words[0] == 'open':
-        #open based on pin number
-        print("opening motor " + words[1])
-        openMotor(int(words[1]))
-    elif words[0] == 'close':
-        #close based on pin number
-        print("closing motor " + words[1])
-        closeMotor(int(words[1]))
-    elif words[0] == 'loop':
-        print("looping motor " + words[1])
-        loopMotor(int(words[1]))
-    elif msg_cleaned == 'lamp on':
-        print('Turning on lamp')
-        turnOnLamp()
-    elif msg_cleaned == 'lamp off':
-        print('Turning off lamp')
-        turnOffLamp()
-    elif msg_cleaned == 'heater on':
-        print('Turning on heater')
-        turnOnHeater()
-    elif msg_cleaned == 'heater off':
-        print('Turning off heater')
-        turnOffHeater()
-    elif msg_cleaned == 'fan on':
-        print('Turning on fan')
-        turnOnFan()
-    elif msg_cleaned == 'fan off':
-        print('Turning off fan')
-        turnOffFan()
-    elif msg_cleaned == 'ac on':
-        print('Turning on ac')
-        turnOnAc()
-    elif msg_cleaned == 'ac off':
-        print('Turning off ac')
-        turnOffAc()
-    else:
-        print('Unknown command')
+    if ("cmd: " in msg_cleaned):
+        cmd = msg_cleaned.split("cmd: ")[1]
+        print(cmd)
+        words = cmd.split()
+        if cmd == "open all":
+            print('Opening all doors')
+            openAll()
+        elif cmd == "close all":
+            print('Closing all doors')
+            closeAll()
+        elif cmd == 'open all doors':
+            print("Opening all doors")
+            openAllDoors()
+        elif cmd == 'close all doors':
+            print("Closing all doors")
+            closeAllDoors()
+        elif cmd == 'open all windows':
+            print("Opening all windows")
+            openAllWindows()
+        elif cmd == 'close all windows':
+            print("Closing all windows")
+            closeAllWindows()
+        elif words[0] == 'open':
+            #open based on pin number
+            print("opening motor " + words[1])
+            openMotor(int(words[1]))
+        elif words[0] == 'close':
+            #close based on pin number
+            print("closing motor " + words[1])
+            closeMotor(int(words[1]))
+        elif words[0] == 'loop':
+            print("looping motor " + words[1])
+            loopMotor(int(words[1]))
+        elif cmd == 'lamp on':
+            print('Turning on lamp')
+            turnOnLamp()
+        elif cmd == 'lamp off':
+            print('Turning off lamp')
+            turnOffLamp()
+        elif cmd == 'heater on':
+            print('Turning on heater')
+            turnOnHeater()
+        elif cmd == 'heater off':
+            print('Turning off heater')
+            turnOffHeater()
+        elif cmd == 'fan on':
+            print('Turning on fan')
+            turnOnFan()
+        elif cmd == 'fan off':
+            print('Turning off fan')
+            turnOffFan()
+        elif cmd == 'ac on':
+            print('Turning on ac')
+            turnOnAc()
+        elif cmd == 'ac off':
+            print('Turning off ac')
+            turnOffAc()
+        else:
+            print('Unknown command')
+    elif("discovery: middleware looking for clients" in msg_cleaned):
+        message = "discovery_reply: actuators_controller"
+        print(message)
+        mqttc.publish(topic,message)
 
 def on_publish(client, obj, mid):
     print("mid: " + str(mid))
@@ -191,9 +202,7 @@ mqttc.on_subscribe = on_subscribe
 # Parse CLOUDMQTT_URL (or fallback to localhost)
 #url_str = 'mqtt://m12.cloudmqtt.com:11110'
 #url = urlparse.urlparse(url_str)
-url = 'm12.cloudmqtt.com'
-port = 11110
-topic = 'scaledhome'
+
 
 # Connect
 #mqttc.username_pw_set(url.username, url.password)
