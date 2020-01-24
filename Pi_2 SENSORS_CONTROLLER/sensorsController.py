@@ -19,6 +19,7 @@ def on_connect(client, userdata, flags, rc):
     print("rc: " + str(rc))
 
 def on_message(client, obj, msg):
+    #print("new mex")
     msg_raw = str(msg.payload)
     msg_cleaned = msg_raw[2:len(msg_raw)-1]
     print('[LOG - from topic '+ msg.topic +' - msg payload cleaned]: '+str(msg_cleaned))
@@ -27,41 +28,36 @@ def on_message(client, obj, msg):
         message = "discovery_reply: sensors_controller"
         mqttc.publish(topic, message)
     elif ("request: new full record" in msg_cleaned):
-        try:
-            message = "record:"+str(datetime.now())
+        message = "record:"+str(datetime.now())
+        
+        print("starting to collect data")
+        
+        for pin in gpioArray:
+            print("Collecting temperature from pin: "+str(pin))
+            attempts = 0
+            while True:
+                humidity, temperature_celsius = Adafruit_DHT.read_retry(sensor, pin)
+                #temperature_fahrenheit = convertTempFromCtoF(temperature_celsius)
+                check_temp = checkTemp (humidity, temperature_celsius, humidity_lower_bound, humidity_upper_bound, temperature_lower_bound, temperature_upper_bound)
+                if (check_temp ):
+                    print("Ok data pin: "+str(pin))
+                    break
+                elif (attempts >= attempts_limit):
+                    print("Error data pin: "+str(pin))
+                    humidity = "error"
+                    temperature_fahrenheit = "error"
+                    break
+                else:
+                    attempts += 1
+                    time.sleep(1)
             
-            print("starting to collect data")
+            #message+= separator+str(temperature_fahrenheit)
+            message+= separator+str(temperature_celsius)
+            message+=  separator+str(humidity)
             
-            for pin in gpioArray:
-                print("Collecting temperature from pin: "+str(pin))
-                attempts = 0
-                while True:
-                    humidity, temperature_celsius = Adafruit_DHT.read_retry(sensor, pin)
-                    temperature_fahrenheit = convertTempFromCtoF(temperature_celsius)
-                    check_temp = checkTemp (humidity, temperature_fahrenheit, humidity_lower_bound, humidity_upper_bound, temperature_lower_bound, temperature_upper_bound)
-                    if (check_temp ):
-                        break
-                    elif (attempts >= attempts_limit):
-                        humidity = "error"
-                        temperature_fahrenheit = "error"
-                        break
-                    else:
-                        attempts += 1
-                        time.sleep(1)
-                
-                message+= separator+str(temperature_fahrenheit)
-                message+=  separator+str(humidity)
-                
-            time.sleep(1)
-            message+='\n'
-            mqttc.publish(topic, message)
-            time.sleep(1)
-        except KeyboardInterrupt:
-            print("Keyboard Interrupt")
-        except Exception as e: 
-            print(e)
-        finally:
-            print("Execution is terminated")
+        time.sleep(1)
+        mqttc.publish(topic, message)
+        time.sleep(1)
 
 
 def on_publish(client, obj, mid):
@@ -75,7 +71,7 @@ def on_log(client, obj, level, string):
 
 mqttc = mqtt.Client()
 # Assign event callbacks
-#mqttc.on_message = on_message
+mqttc.on_message = on_message
 mqttc.on_connect = on_connect
 mqttc.on_publish = on_publish
 mqttc.on_subscribe = on_subscribe
@@ -125,7 +121,7 @@ gpioArray=[4,6,12,18,19,24,25,26]
 
 # seconds = 0
 
-# separator = ','
+separator = ','
 attempts_limit = 5
 
 # humidity is a percentage => h belongs to [0,100]
