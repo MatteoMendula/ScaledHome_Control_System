@@ -217,7 +217,8 @@ client.subscribe(topic,{qos:2});
 
 client.on("connect",function(){	
     utils.myConsoleLog("main","connected to topic \"" + topic + "\"");
-    initMiddlware(client,topic);
+    //initMiddlware(client,topic);
+    client.publish(topic,"ciaop")
 });
 
 client.on('message',async function(topic, message){
