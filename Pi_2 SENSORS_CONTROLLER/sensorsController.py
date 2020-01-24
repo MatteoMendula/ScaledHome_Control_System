@@ -9,6 +9,12 @@ import paho.mqtt.client as mqtt
 
 #------------------------------------- MQTT ----------------------------------------
 
+# Parse CLOUDMQTT_URL 
+url = 'm12.cloudmqtt.com'
+#ES url='m123.cloudmqtt.com'
+port = 11110
+topic = 'scaledhome'
+
 def on_connect(client, userdata, flags, rc):
     print("rc: " + str(rc))
 
@@ -16,6 +22,47 @@ def on_message(client, obj, msg):
     msg_raw = str(msg.payload)
     msg_cleaned = msg_raw[2:len(msg_raw)-1]
     print('[LOG - from topic '+ msg.topic +' - msg payload cleaned]: '+str(msg_cleaned))
+
+    if ("discovery: middleware looking for clients" in msg_cleaned):
+        message = "discovery_reply: sensors_controller"
+        mqttc.publish(topic, message)
+    elif ("request: new full record" in msg_cleaned):
+        try:
+            message = "record:"+str(datetime.now())
+            
+            print("starting to collect data")
+            
+            for pin in gpioArray:
+                print("Collecting temperature from pin: "+str(pin))
+                attempts = 0
+                while True:
+                    humidity, temperature_celsius = Adafruit_DHT.read_retry(sensor, pin)
+                    temperature_fahrenheit = convertTempFromCtoF(temperature_celsius)
+                    check_temp = checkTemp (humidity, temperature_fahrenheit, humidity_lower_bound, humidity_upper_bound, temperature_lower_bound, temperature_upper_bound)
+                    if (check_temp ):
+                        break
+                    elif (attempts >= attempts_limit):
+                        humidity = "error"
+                        temperature_fahrenheit = "error"
+                        break
+                    else:
+                        attempts += 1
+                        time.sleep(1)
+                
+                message+= separator+str(temperature_fahrenheit)
+                message+=  separator+str(humidity)
+                
+            time.sleep(1)
+            message+='\n'
+            mqttc.publish(topic, message)
+            time.sleep(1)
+        except KeyboardInterrupt:
+            print("Keyboard Interrupt")
+        except Exception as e: 
+            print(e)
+        finally:
+            print("Execution is terminated")
+
 
 def on_publish(client, obj, mid):
     print("mid: " + str(mid))
@@ -35,12 +82,6 @@ mqttc.on_subscribe = on_subscribe
 
 # Uncomment to enable debug messages
 #mqttc.on_log = on_log
-
-# Parse CLOUDMQTT_URL 
-url = 'm12.cloudmqtt.com'
-#ES url='m123.cloudmqtt.com'
-port = 11110
-topic = 'scaledhome'
 
 # Connect
 mqttc.username_pw_set('sensors_controller', 'sensors')
@@ -82,87 +123,93 @@ sensor=Adafruit_DHT.DHT11
 
 gpioArray=[4,6,12,18,19,24,25,26]
 
-seconds = 0
+# seconds = 0
 
-separator = ','
+# separator = ','
 attempts_limit = 5
 
 # humidity is a percentage => h belongs to [0,100]
 humidity_lower_bound = 0
 humidity_upper_bound = 100
 
-temperature_lower_bound = 60
-temperature_upper_bound = 90
+# FAHRENHEIT
+# temperature_lower_bound = 60
+# temperature_upper_bound = 90
 
-new_reading_interval = 30
+# CELSIUS
+temperature_lower_bound = 15
+temperature_upper_bound = 33
 
-message = "header:"
-message += 'TIME'+separator
-message += 'OUT_T[*K]'+separator
-message += 'OUT_H[%]'+separator
-message += 'T6[*K]'+separator
-message += 'H6[%]'+separator
-message += 'T12[*K]'+separator
-message += 'H12[%]'+separator
-message += 'T18[*K]'+separator
-message += 'H18[%]'+separator
-message += 'T19[*K]'+separator
-message += 'H19[%]'+separator
-message += 'T24[*K]'+separator
-message += 'H24[%]'+separator
-message += 'T25[*K]'+separator
-message += 'H25[%]'+separator
-message += 'T26[*K]'+separator
-message += 'H26[%]'
-message += '\n'
 
-mqttc.publish(topic, message)
-message = ''
+# new_reading_interval = 30
 
-try:
-    while(True):
-        message = "record:"+str(datetime.now())
+# message = "header:"
+# message += 'TIME'+separator
+# message += 'OUT_T[*K]'+separator
+# message += 'OUT_H[%]'+separator
+# message += 'T6[*K]'+separator
+# message += 'H6[%]'+separator
+# message += 'T12[*K]'+separator
+# message += 'H12[%]'+separator
+# message += 'T18[*K]'+separator
+# message += 'H18[%]'+separator
+# message += 'T19[*K]'+separator
+# message += 'H19[%]'+separator
+# message += 'T24[*K]'+separator
+# message += 'H24[%]'+separator
+# message += 'T25[*K]'+separator
+# message += 'H25[%]'+separator
+# message += 'T26[*K]'+separator
+# message += 'H26[%]'
+# message += '\n'
+
+# mqttc.publish(topic, message)
+# message = ''
+
+# try:
+#     while(True):
+#         message = "record:"+str(datetime.now())
         
-        print("starting to collect data")
+#         print("starting to collect data")
         
-        for pin in gpioArray:
-            print("Collecting temperature from pin: "+str(pin))
-            attempts = 0
-            while True:
-                humidity, temperature_celsius = Adafruit_DHT.read_retry(sensor, pin)
-                temperature_fahrenheit = convertTempFromCtoF(temperature_celsius)
-                check_temp = checkTemp (humidity, temperature_fahrenheit, humidity_lower_bound, humidity_upper_bound, temperature_lower_bound, temperature_upper_bound)
-                if (check_temp ):
-                    break
-                elif (attempts >= attempts_limit):
-                    humidity = "error"
-                    temperature_fahrenheit = "error"
-                    break
-                else:
-                    attempts += 1
-                    time.sleep(1)
+#         for pin in gpioArray:
+#             print("Collecting temperature from pin: "+str(pin))
+#             attempts = 0
+#             while True:
+#                 humidity, temperature_celsius = Adafruit_DHT.read_retry(sensor, pin)
+#                 temperature_fahrenheit = convertTempFromCtoF(temperature_celsius)
+#                 check_temp = checkTemp (humidity, temperature_fahrenheit, humidity_lower_bound, humidity_upper_bound, temperature_lower_bound, temperature_upper_bound)
+#                 if (check_temp ):
+#                     break
+#                 elif (attempts >= attempts_limit):
+#                     humidity = "error"
+#                     temperature_fahrenheit = "error"
+#                     break
+#                 else:
+#                     attempts += 1
+#                     time.sleep(1)
             
-            message+= separator+str(temperature_fahrenheit)
-            message+=  separator+str(humidity)
+#             message+= separator+str(temperature_fahrenheit)
+#             message+=  separator+str(humidity)
             
-        time.sleep(1)
-        message+='\n'
-        mqttc.publish(topic, message)
-        time.sleep(1)
+#         time.sleep(1)
+#         message+='\n'
+#         mqttc.publish(topic, message)
+#         time.sleep(1)
                                        
-        #set a new reading every new_reading_interval seconds    
-        for i in range(0,new_reading_interval):
-            #print('Next reading in: ' + str(i)+'/60', flush=True)
-            print('Next reading in: ' + str(i)+'/'+str(new_reading_interval))
-            time.sleep(1)
-            seconds += 1
+#         #set a new reading every new_reading_interval seconds    
+#         for i in range(0,new_reading_interval):
+#             #print('Next reading in: ' + str(i)+'/60', flush=True)
+#             print('Next reading in: ' + str(i)+'/'+str(new_reading_interval))
+#             time.sleep(1)
+#             seconds += 1
             
-except KeyboardInterrupt:
-        print("Keyboard Interrupt")
-except Exception as e: 
-    	print(e)
-finally:
-        print("Execution is terminated")
+# except KeyboardInterrupt:
+#         print("Keyboard Interrupt")
+# except Exception as e: 
+#     	print(e)
+# finally:
+#         print("Execution is terminated")
 
 # Continue the network loop, exit when an error occurs
 rc = 0

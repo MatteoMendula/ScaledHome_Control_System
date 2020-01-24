@@ -38,6 +38,9 @@ var actuators_controller = {
 var index_motors = [...Array(16).keys()];
 var motors_state = {};
 
+var separator = ',';
+var header_has_been_written = false;
+
 // estimated uncertainty of measurement
 // var delta = 0.2;
 
@@ -217,7 +220,7 @@ client.on("connect",function(){
     initMiddlware(client,topic);
 });
 
-client.on('message',function(topic, message){
+client.on('message',async function(topic, message){
 
     var mex = ''+message;
 
@@ -229,15 +232,48 @@ client.on('message',function(topic, message){
           
         if (mex.includes("record:")){
 
-            record = mex.split("record:")[1].split(',')
+            if (!header_has_been_written){
+                var message = 'TIME'+separator
+                message += 'OUT_T[*K]'+separator
+                message += 'OUT_H[%]'+separator
+                message += 'T6[*K]'+separator
+                message += 'H6[%]'+separator
+                message += 'T12[*K]'+separator
+                message += 'H12[%]'+separator
+                message += 'T18[*K]'+separator
+                message += 'H18[%]'+separator
+                message += 'T19[*K]'+separator
+                message += 'H19[%]'+separator
+                message += 'T24[*K]'+separator
+                message += 'H24[%]'+separator
+                message += 'T25[*K]'+separator
+                message += 'H25[%]'+separator
+                message += 'T26[*K]'+separator
+                message += 'H26[%]'
+                message += '\n'
 
+                saveOnFile("./data","data.csv",message);
+                header_has_been_written = true; 
+            }
+
+            record = mex.split("record:")[1].split(',');
             var out_temperature = ''+record[1];
+            checkTempBounds(client, out_temperature);  
 
-            checkTempBounds(client, out_temperature);   
+            for (let i = 0; i < new_request_interval; i++) {
+                utils.myConsoleLog("main mqtt onmessage", "new data request in "+new_request_interval-i+" seconds");
+                await new Promise((resolve) => setTimeout(resolve, 1000));
+            }
+            
+            if (sensors_controller.state == 1){
+                requestNewRecord(client,topic);
+            }else{
+                initSensorsController(client,topic);
+            }
         }else if (mex.includes("header:")){
             record = mex.split("header:")[1];
-        }else if(mex.includes("discovery_reply:")){
-            var client_id = mex.split("discovery_reply:")[1];
+        }else if(mex.includes("discovery_reply: ")){
+            var client_id = mex.split("discovery_reply: ")[1];
             if (client_id.includes(sensors_controller.id)){
                 sensors_controller.state = 1;
                 record = sensors_controller.id + " is on";

@@ -14,3 +14,4 @@
 [LOG - inputInterface] type: Info - message: sent cmd-> activate
 [LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 71.6
 [LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 71.6
+[LOG - initMiddlware] type: Info - message: Middleware init procedure
