@@ -1,18 +1,140 @@
-[LOG - init] type: Info - message: Starting init procedure
-[LOG - handleLamp] type: Info - message: Turning lamp off
-[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 73.4
-[LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 73.4
-[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 73.4 to: 71.6
-[LOG - handleLamp] type: Info - message: Turning lamp on
-[LOG - handleLamp] type: Info - message: Turning lamp off
-[LOG - init] type: Info - message: Starting init procedure
-[LOG - handleLamp] type: Info - message: Turning lamp off
-[LOG - init] type: Info - message: Starting init procedure
-[LOG - handleLamp] type: Info - message: Turning lamp off
-[LOG - inputInterface] type: Info - message: sent cmd-> activate
-[LOG - inputInterface] type: Info - message: sent cmd-> activate
-[LOG - inputInterface] type: Info - message: sent cmd-> activate
-[LOG - updateMinTemp] type: Info - message: Min temp has been updated from: 100000 to: 71.6
-[LOG - updateMaxTemp] type: Info - message: Max temp has been updated from: -100000 to: 71.6
-[LOG - initMiddlware] type: Info - message: Middleware init procedure
-[LOG - initMiddlware] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+
+[LOG - initSensorsController - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+
+[LOG - requestData - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - main - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+
+[LOG - initActuatorsController - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+
+[LOG - handleLamp - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+
+[LOG - handleAc - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+
+[LOG - handleHeater - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+
+[LOG - handleFan - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+
+[LOG - handleMotors - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+
+[LOG - main - Fri Jan 24 2020 16:27:02 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+
+[LOG - updateMinTemp - Fri Jan 24 2020 16:27:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 71.6
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:27:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 71.6
+
+[LOG - requestData - Fri Jan 24 2020 16:27:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:28:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:29:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:30:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - handleLamp - Fri Jan 24 2020 16:30:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+
+[LOG - requestData - Fri Jan 24 2020 16:31:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:31:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:32:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - inputInterface - Fri Jan 24 2020 16:32:49 GMT-0500 (Eastern Standard Time)] type: Info - message: sent cmd-> lamp on
+
+[LOG - inputInterface - Fri Jan 24 2020 16:32:56 GMT-0500 (Eastern Standard Time)] type: Info - message: sent cmd-> lamp off
+
+[LOG - initMiddlware - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+
+[LOG - initActuatorsController - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+
+[LOG - handleLamp - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+
+[LOG - handleHeater - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+
+[LOG - handleAc - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+
+[LOG - handleFan - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+
+[LOG - handleMotors - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+
+[LOG - initSensorsController - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+
+[LOG - main - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+
+[LOG - main - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+
+[LOG - requestData - Fri Jan 24 2020 16:37:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:37:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 71.6
+
+[LOG - updateMinTemp - Fri Jan 24 2020 16:37:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 71.6
+
+[LOG - requestData - Fri Jan 24 2020 16:38:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:38:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:39:49 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:40:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - handleLamp - Fri Jan 24 2020 16:40:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+
+[LOG - requestData - Fri Jan 24 2020 16:41:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMinTemp - Fri Jan 24 2020 16:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 71.6 to: 69.8
+
+[LOG - requestData - Fri Jan 24 2020 16:42:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:43:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:43:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 71.6 to: 73.4
+
+[LOG - requestData - Fri Jan 24 2020 16:43:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:44:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 73.4 to: 75.2
+
+[LOG - requestData - Fri Jan 24 2020 16:44:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:45:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:45:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 75.2 to: 77.0
+
+[LOG - requestData - Fri Jan 24 2020 16:46:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:47:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:47:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:48:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 77.0 to: 78.8
+
+[LOG - requestData - Fri Jan 24 2020 16:48:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:49:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:49:57 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:50:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 78.8 to: 80.6
+
+[LOG - requestData - Fri Jan 24 2020 16:50:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:51:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:52:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:53:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - handleLamp - Fri Jan 24 2020 16:53:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+
+[LOG - requestData - Fri Jan 24 2020 16:53:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - updateMaxTemp - Fri Jan 24 2020 16:54:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 80.6 to: 82.4
+
+[LOG - requestData - Fri Jan 24 2020 16:54:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:55:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:56:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+
+[LOG - requestData - Fri Jan 24 2020 16:57:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+

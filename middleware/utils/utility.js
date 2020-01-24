@@ -40,7 +40,7 @@ function myStringLog(caller,message,type = 0){
             my_type = "Unknown"
       }
 
-    return (`[LOG - ${my_caller}] type: ${my_type} - message: ${message}\n`);
+    return (`[LOG - ${my_caller} - ${new Date()}] type: ${my_type} - message: ${message}\n`);
 }
 
 module.exports.myConsoleLog = myConsoleLog;
