@@ -75,7 +75,7 @@ def on_log(client, obj, level, string):
 
 mqttc = mqtt.Client()
 # Assign event callbacks
-#mqttc.on_message = on_message
+mqttc.on_message = on_message
 mqttc.on_connect = on_connect
 mqttc.on_publish = on_publish
 mqttc.on_subscribe = on_subscribe
