@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <%- include ("head") -%>
+    <body>
+        <div class="d-flex justify-content-center">
+            <div class="container">
+                <div class="row">
+                    <h1>ScaledHome web interface</h1>
+                </div>
+                <hr>
+                <br>
+                <%- include ("./sections/motors") -%>
+                <hr>
+                <br>
+                <%- include ("./sections/actuators") -%>
+            </div>
+            <center>
+                <img style="height:45vh; margin: 1rem;" src="./img/structure.jpg" />
+            </center>
+        </div>
+
+        
+        
+
+        <%- include("scripts") -%>
+        <%- include("footer") -%>
+    </body>
+</html>
