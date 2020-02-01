@@ -1,0 +1,219 @@
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,57.0,22.0,51.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,57.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,57.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,23.0,57.0,22.0,51.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,23.0,57.0,22.0,48.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,23.0,57.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,23.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,23.0,56.0,22.0,48.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,23.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,54.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,initial_value,initial_value,initial_value,initial_value
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,56.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+undefined,22.0,56.0,23.0,57.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,56.0,24.0,56.0,22.0,48.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,52.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,57.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,52.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+undefined,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+ 2020-01-31 22:34:45.880538,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:34:54.703155,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:35:08.622219,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:35:19.974839,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:35:31.340738,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:35:37.650014,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:35:43.961939,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:35:52.796566,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:36:01.618427,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:36:07.914817,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:36:19.334751,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:36:25.639334,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:36:36.983444,22.0,55.0,24.0,56.0,22.0,50.0,22.0,51.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+ 2020-01-31 22:37:47.820280,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:37:54.143862,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:38:02.974706,22.0,56.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:38:11.798509,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:38:20.618806,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+ 2020-01-31 22:38:26.903081,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:38:33.260712,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:38:39.472840,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:38:48.362589,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:39:07.213435,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:39:16.109933,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:39:29.906199,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:39:38.792484,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:39:45.004376,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:39:58.959720,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,48.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:40:05.171461,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:40:14.026297,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:40:20.239711,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,54.0,0,0,0,0
+ 2020-01-31 22:40:26.453238,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:40:37.722543,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:40:46.467400,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:40:52.680919,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:41:01.422189,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,53.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:41:07.635822,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,0,0,0,0
+TIME,OUT_T[*C],OUT_H[%],T6[*C],H6[%],T12[*C],H12[%],T18[*C],H18[%],T19[*C],H19[%],T24[*C],H24[%],T25[*C],H25[%],T26[*C],H26[%],LAMP_STATE,FAN_STATE,AC_STATE,HEATER_STATE
+ 2020-01-31 22:41:13.849343,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:41:27.646457,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:41:36.393662,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:41:45.135254,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:41:51.347496,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:42:05.148407,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:42:13.890444,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:42:20.102342,22.0,55.0,24.0,56.0,22.0,50.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,53.0,22.0,53.0,0,0,0,0
+ 2020-01-31 22:42:26.315926,22.0,55.0,24.0,56.0,22.0,47.0,22.0,55.0,24.0,47.0,22.0,52.0,22.0,54.0,22.0,53.0,0,0,0,0

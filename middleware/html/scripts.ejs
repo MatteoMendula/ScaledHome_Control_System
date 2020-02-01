@@ -1,24 +1,143 @@
-
-<!-- jQuery first, then Popper.js, then Bootstrap JS. -->
-<script src="jquery/dist/jquery.slim.min.js"></script>
-<script src="popper.js/dist/umd/popper.min.js"></script>
-<script src="bootstrap/dist/js/bootstrap.min.js"></script> 
-
 <script>
 
-    var gui_post_url = "<%=gui_post_url %>";
+    var gui_url = "<%=gui_url %>";
+
+    var special = [
+                "doors",
+                "windows"
+            ];
+    var doors = [
+        "motor0",
+        "motor1",
+        "motor2",
+        "motor3",
+        "motor4",
+        "motor5",
+        "motor6"
+    ];
+
+    var windows = [
+        "motor8",
+        "motor9",
+        "motor10",
+        "motor11",
+        "motor12",
+        "motor13",
+        "motor14",
+        "motor15"
+    ];
+    
+    var input_html_coll = document.getElementsByTagName("input");
 
     function check(checkboxElem){
         var xhr = new XMLHttpRequest();
         // xhr.open("POST", 'http://localhost:3000/mqttgui', true);
-        xhr.open("POST", gui_post_url, true);
+        xhr.open("POST", gui_url+"/mqttgui", true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({
             id: checkboxElem.id,
             value: checkboxElem.checked
         }));
+
+        var autoChange = (elements_to_change, html_coll, value) =>{
+            for (var i = 0; html_coll.length-1; i++){
+                if (elements_to_change.includes(html_coll[i].id) ){
+                    html_coll[i].checked = value;
+                }
+            }
+        }
+
+        if (checkboxElem.id == "all"){
+            autoChange([...special,...doors,...windows], input_html_coll, checkboxElem.checked);
+        }else if (checkboxElem.id == "doors"){
+            autoChange(doors, input_html_coll, checkboxElem.checked);
+        }else if (checkboxElem.id == "windows"){
+            autoChange(windows, input_html_coll, checkboxElem.checked);
+        }
     }
 
-    console.log("gui_post_url",gui_post_url)
+    // console.log("gui_post_url",gui_post_url)
+    // var gui_url = "<%=gui_url %>";
+    var socket = io.connect(gui_url);
+
+    var updateStateOnWebPage = (record) => {
+
+        // console.log("new record inside updateStateOnWebPage",record);
+
+        document.getElementById("time").innerHTML = record.time_record;
+
+        var sensors_state = record.sensors;
+        document.getElementById("t4").innerHTML = sensors_state.outside.temperature;
+        document.getElementById("h4").innerHTML = sensors_state.outside.humidity;
+
+        document.getElementById("t6").innerHTML = sensors_state.bedroom_1.temperature;
+        document.getElementById("h6").innerHTML = sensors_state.bedroom_1.humidity;
+
+        document.getElementById("t12").innerHTML = sensors_state.kitchen_1.temperature;
+        document.getElementById("h12").innerHTML = sensors_state.kitchen_1.humidity;
+        
+        document.getElementById("t18").innerHTML = sensors_state.kitchen_2.temperature;
+        document.getElementById("h18").innerHTML = sensors_state.kitchen_2.humidity;
+        
+        document.getElementById("t19").innerHTML = sensors_state.bathroom.temperature;
+        document.getElementById("h19").innerHTML = sensors_state.bathroom.humidity;
+        
+        document.getElementById("t24").innerHTML = sensors_state.living_room_1.temperature;
+        document.getElementById("h24").innerHTML = sensors_state.living_room_1.humidity;
+
+        document.getElementById("t25").innerHTML = sensors_state.living_room_2.temperature;
+        document.getElementById("h25").innerHTML = sensors_state.living_room_2.humidity;
+        
+        document.getElementById("t26").innerHTML = sensors_state.bedroom_2.temperature;
+        document.getElementById("h26").innerHTML = sensors_state.bedroom_2.humidity;
+    }
+        
+    socket.on('connect',function() {
+        console.log('Client has connected to the server!');
+    });
+    socket.on("record_socket:", function (data) {
+            // console.log("new record",data);
+            // console.log("new record parsed",JSON.parse(data));
+            updateStateOnWebPage(JSON.parse(data));
+        });
+
+    function download(filename, text) { 
+        var element = document.createElement('a');
+        element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
+        element.setAttribute('download', filename);
+    
+        element.style.display = 'none';
+        document.body.appendChild(element);
+    
+        element.click();
+    
+        document.body.removeChild(element);
+    }
+
+    function reqCVSrecors(){
+        // console.log("just click")
+
+        var xhttp;
+        xhttp=new XMLHttpRequest();
+        xhttp.onreadystatechange = function() {
+            if (this.readyState == 4 && this.status == 200) {
+                // console.log("tutto ok");
+
+                var response = xhttp.responseText;
+
+                // console.log(xhttp.response);
+
+                var today = new Date();
+                var today_string = `${today.getMonth()+1}_${today.getDate()}_${today.getFullYear()}`;
+
+                download(today_string+".csv",response);
+            }
+        };        
+        xhttp.open("POST", gui_url+"/mqttgetrecord", true);
+        xhttp.setRequestHeader('Content-Type', 'application/json');
+        xhttp.send(JSON.stringify({
+            key: "scaledhome"
+        }));
+    }
 </script> 
     

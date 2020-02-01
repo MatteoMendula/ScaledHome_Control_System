@@ -68,7 +68,7 @@ function chageLampAndFanIfBound(client, out_temperature, state){
     state.last_out_temp = out_temperature;
 }
 
-async function onMessage(topic, message, mqttClientInstance, state){
+async function onMessage(topic, message, mqttClientInstance, state, socket_io){
 
     var mex = ''+message;
 
@@ -91,9 +91,13 @@ async function onMessage(topic, message, mqttClientInstance, state){
 
             record_file = mex.split("record:")[1].split(',');
 
-            state.updaStateByRecord(record_file);
+            state.updateStateByRecord(record_file);
 
             var out_temperature = ''+record_file[1];
+
+            if (socket_io != "no_socket"){
+                socket_io.emit("record_socket:", state.getStateAsJsonString());
+            }
             
             // MODE 1
             chageLampAndFanOnSameTemp(mqttClientInstance.mqttPublish, out_temperature, state);  
@@ -101,7 +105,7 @@ async function onMessage(topic, message, mqttClientInstance, state){
             // MODE 2
             // chageLampAndFanIfBound(mqttClientInstance.mqttPublish, out_temperature, state);
 
-            record_file = state.getStateAsString();
+            record_file = state.getStateAsString_no_header();
 
             for (let i = 0; i < settings.new_request_interval; i++) {
                 utility.myConsoleLog("main mqtt onmessage", "new data request in "+parseInt(settings.new_request_interval-i)+" seconds");

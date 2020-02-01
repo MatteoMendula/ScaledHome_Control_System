@@ -349,3 +349,517 @@
 [LOG - initMiddlware - Fri Jan 31 2020 01:29:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 10
 [LOG - initMiddlware - Fri Jan 31 2020 01:29:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 11
 [LOG - initMiddlware - Fri Jan 31 2020 01:29:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 11
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 1
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 1
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 2
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 2
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 3
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 3
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 4
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 4
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 5
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 5
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 6
+[LOG - initMiddlware - Fri Jan 31 2020 18:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 6
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 1
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 1
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 2
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 2
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 3
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 3
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 4
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 4
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 5
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 5
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 6
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 6
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 7
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 7
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 8
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 8
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 9
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 9
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 10
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 10
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 11
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 11
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 12
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 12
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 13
+[LOG - initMiddlware - Fri Jan 31 2020 18:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 13
+[LOG - initMiddlware - Fri Jan 31 2020 19:00:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:00:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 1
+[LOG - initMiddlware - Fri Jan 31 2020 19:00:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 1
+[LOG - initMiddlware - Fri Jan 31 2020 19:01:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 2
+[LOG - initMiddlware - Fri Jan 31 2020 19:01:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 2
+[LOG - initMiddlware - Fri Jan 31 2020 19:01:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Actuators controller is not connected connection attempt: 3
+[LOG - initMiddlware - Fri Jan 31 2020 19:01:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Sensors controller is not connected, connection attempt: 3
+[LOG - initMiddlware - Fri Jan 31 2020 19:01:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:02:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:03:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:04:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:05:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:06:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:08:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:11:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:26:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:27:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:44:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 19:44:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 20:58:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 21:02:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - requestData - Fri Jan 31 2020 21:02:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:02:51 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - initSensorsController - Fri Jan 31 2020 21:02:51 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - initMiddlware - Fri Jan 31 2020 21:03:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:03:51 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:03:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:03:51 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - initMiddlware - Fri Jan 31 2020 21:05:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:05:00 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:05:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:05:00 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - initMiddlware - Fri Jan 31 2020 21:05:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:05:34 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:05:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:05:34 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:05:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:05:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:05:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:05:49 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:05:55 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:06:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:06:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:07:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:07:51 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:07:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:07:51 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:07:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:07:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:07:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:09:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:09:03 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:09:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:09:03 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:09:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:09:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:09:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initMiddlware - Fri Jan 31 2020 21:10:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:10:20 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:10:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:10:20 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - initMiddlware - Fri Jan 31 2020 21:10:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:10:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:10:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 21:10:31 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:10:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:10:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:10:31 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:10:31 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:10:48 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:10:48 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:11:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:11:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:11:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 21:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:11:28 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:11:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:11:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:13:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:13:24 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:13:24 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:13:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMinTemp - Fri Jan 31 2020 21:13:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:13:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:13:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:13:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:14:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:18:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:18:13 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:18:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:18:13 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:18:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - updateMinTemp - Fri Jan 31 2020 21:18:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:18:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:31:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:31:56 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:31:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:31:56 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:32:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:32:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:32:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:32:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:32:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:32:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:32:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:32:55 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:33:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:33:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:33:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:44:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:44:11 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:44:11 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:44:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMinTemp - Fri Jan 31 2020 21:44:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:44:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:44:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:44:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:44:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:45:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:45:27 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:45:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:45:27 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:45:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:45:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:45:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:45:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:45:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:46:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:46:12 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:46:12 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:46:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMinTemp - Fri Jan 31 2020 21:46:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:46:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:46:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:46:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:46:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:46:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:46:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:46:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 21:46:42 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:46:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:46:42 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:46:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:46:42 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:47:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:47:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:47:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:47:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:47:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:47:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:47:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:47:50 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:48:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:48:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:48:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:48:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:48:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:48:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 21:48:14 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:48:31 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:48:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:48:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:48:31 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:48:31 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:48:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:48:31 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:48:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:48:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:48:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:49:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:50:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:50:20 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:50:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:50:20 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:50:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:50:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:50:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:50:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:50:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:50:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:50:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:51:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:51:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:51:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:51:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:51:32 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:51:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:51:32 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:51:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:51:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:52:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:52:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:52:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:52:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:52:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 21:52:18 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:52:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:52:18 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:52:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:52:18 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:52:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:52:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:52:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:52:55 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:53:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:53:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:53:16 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:53:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:56:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 21:56:03 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:56:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 21:56:03 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 21:56:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:56:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 21:56:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:56:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:56:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:56:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 21:56:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:57:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:57:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:57:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:57:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:57:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:57:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:58:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:58:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:58:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:58:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:58:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:58:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:58:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:48 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 21:59:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:00:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:00:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:00:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 22:00:29 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 22:00:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 22:00:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 22:00:29 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 22:00:29 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 22:00:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:00:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:00:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:01:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:02:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:02:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - updateMinTemp - Fri Jan 31 2020 22:02:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:02:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 22:02:21 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:02:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 22:02:27 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:02:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 22:02:27 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:02:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 22:02:27 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 22:02:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:02:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:02:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:02:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleHeater - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - main - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - handleMotors - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - initSensorsController - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleAc - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - main - Fri Jan 31 2020 22:25:04 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 22:25:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:25:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 22:25:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:25:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:25:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:25:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:25:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:26:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:26:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleAc - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleFan - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleMotors - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - initSensorsController - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 22:31:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:31:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 22:31:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:31:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:32:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:32:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:32:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleAc - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleFan - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleMotors - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Fri Jan 31 2020 22:32:27 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 22:32:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:32:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 22:32:32 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:32:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 22:32:32 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Fri Jan 31 2020 22:32:32 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 22:32:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:32:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:32:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:32:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:33:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:33:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleAc - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleFan - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - main - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - initSensorsController - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - handleHeater - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Fri Jan 31 2020 22:34:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - updateMinTemp - Fri Jan 31 2020 22:34:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:34:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 22:34:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:35:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:35:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:35:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:35:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:35:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:35:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:36:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:36:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:36:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:36:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:36:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:36:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - initActuatorsController - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleAc - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - main - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - handleLamp - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleMotors - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - handleFan - Fri Jan 31 2020 22:37:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - initMiddlware - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleHeater - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleLamp - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleAc - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleFan - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleMotors - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - initSensorsController - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 22:37:47 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 22:37:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:37:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 22:37:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:38:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:38:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:38:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:38:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleAc - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleFan - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleMotors - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Fri Jan 31 2020 22:38:28 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 22:38:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:38:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - initSensorsController - Fri Jan 31 2020 22:38:32 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:38:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 22:38:32 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:38:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 22:38:32 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 22:38:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:38:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:39:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:39:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:39:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:39:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:39:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:39:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:40:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:40:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:40:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:40:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:40:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:40:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:40:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:41:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:41:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:41:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleFan - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleMotors - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Fri Jan 31 2020 22:41:25 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - updateMinTemp - Fri Jan 31 2020 22:41:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 22.0
+[LOG - updateMaxTemp - Fri Jan 31 2020 22:41:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 22.0
+[LOG - requestData - Fri Jan 31 2020 22:41:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 22:41:27 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - initSensorsController - Fri Jan 31 2020 22:41:36 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:41:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Fri Jan 31 2020 22:41:36 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Fri Jan 31 2020 22:41:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Fri Jan 31 2020 22:41:36 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Fri Jan 31 2020 22:41:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:42:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:42:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:42:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:42:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:42:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Fri Jan 31 2020 22:42:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record

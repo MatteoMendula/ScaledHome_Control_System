@@ -4,8 +4,12 @@ hr {
       border-top: 2px dotted #8c8b8b;
       margin:0px auto;
   }
+
+td{
+    text-align: center;
+}
   
-  .footer{
+.footer{
     background-color: #4287f5;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
@@ -14,7 +18,7 @@ hr {
     bottom: 0;
   }
 
-  .onoffswitch {
+.onoffswitch {
     position: relative; width: 120px;
     margin-left:1rem;
     -webkit-user-select:none; -moz-user-select:none; -ms-user-select: none;

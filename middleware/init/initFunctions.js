@@ -7,8 +7,12 @@ async function initMiddlware(mqttPublish, state){
     utility.myConsoleLog("initMiddlware",log);
     fileManager.saveOnFile("./log","txt",utility.myStringLog("initMiddlware",log));
 
+    // var control = state.actuators_controller.state == 0 || state.sensors_controller.state == 0 ; 
+
+    var control = false;
+
     // console.log(mqttPublish)
-    while(state.actuators_controller.state == 0 || state.sensors_controller.state == 0){
+    do{
         mqttPublish("discovery: middleware looking for clients");
         
         if (state.actuators_controller.conn_attempts > 0 && state.actuators_controller.state == 0){
@@ -27,6 +31,7 @@ async function initMiddlware(mqttPublish, state){
 
         await new Promise((resolve) => setTimeout(resolve, 1000));
     }
+    while(control);
     
 }
 

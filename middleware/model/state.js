@@ -65,9 +65,10 @@ class houseState{
             }
         };
 
-        this.last_time = "initial_value";
+        this.last_time_record = "initial_value";
 
-        this.records = utility.getHeader(settings.csv_separator);
+        this.to_csv_file = utility.getHeader(settings.csv_separator);
+
     }
 
     updateMaxTemp(new_temp){
@@ -86,8 +87,8 @@ class houseState{
         fileManager.saveOnFile("./log","txt",utility.myStringLog("updateMinTemp",log));
     }
 
-    getStateAsString(){
-        var state_as_string = this.last_time;
+    getStateAsString_no_header(){
+        var state_as_string = this.last_time_record;
         state_as_string += settings.csv_separator + this.sensors.outside.temperature;
         state_as_string += settings.csv_separator + this.sensors.outside.humidity;
         state_as_string += settings.csv_separator + this.sensors.bedroom_1.temperature;
@@ -108,14 +109,19 @@ class houseState{
         state_as_string += settings.csv_separator + this.lamp_state;
         state_as_string += settings.csv_separator + this.fan_state;
         state_as_string += settings.csv_separator + this.ac_state;
-        state_as_string += settings.csv_separator +this.heater_state;
+        state_as_string += settings.csv_separator + this.heater_state;
 
         return state_as_string;
     }
 
+    getStateAsString_with_header(){
+        return (utility.getHeader(settings.csv_separator)+'\n'+this.getStateAsString_no_header());
+    }
+
     updateStateByRecord(record){
+        var record = ''+record;
         var record_list = record.split(settings.csv_separator);
-        this.last_time = record_list[0];
+        this.last_time_record = record_list[0];
         this.sensors = {
             outside: {
                 temperature: record_list[1],
@@ -151,9 +157,24 @@ class houseState{
             }
         };
 
+
+        this.to_csv_file += '\n' + this.getStateAsString_no_header();
+
         //return this.getStateAsString();
 
     }
+
+    getStateToCSVFile(){
+        return this.to_csv_file;
+    }
+
+    getStateAsJsonString(){
+        return JSON.stringify({
+            time_record: this.last_time_record,
+            sensors: this.sensors
+        });
+    }
+
 }
 
 module.exports = houseState;
