@@ -40,7 +40,7 @@ const allowed_motors =    [
 
 const csv_separator = ',';
 const new_request_interval = 0; //seconds
-const same_temp_limit = 30;
+const same_temp_limit = 50;
 
 const min_temp_sh = 22;
 const max_temp_sh = 29;

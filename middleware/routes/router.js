@@ -59,6 +59,7 @@ var my_router = function(io){
     var mex = "error";
     if (id == "all"){
         mex = mex_type + ((value == true) ? "open" : "close") + " all";
+        //state.motors -> change motors state
     }else if (id.includes("doors")){
         mex = mex_type + ((value == true) ? "open" : "close") + " all doors";
     }else if (id.includes("windows")){
@@ -70,15 +71,19 @@ var my_router = function(io){
     }else if (id.includes("lamp")){
       mex = mex_type+"lamp ";
       mex += (value == true) ? "on" : "off";
+      state.lamp_state = (value == true) ? 1 : 0;
     }else if (id.includes("fan")){
       mex = mex_type+"fan ";
       mex += (value == true) ? "on" : "off";
+      state.fan_state = (value == true) ? 1 : 0;
     }else if (id.includes("ac")){
       mex = mex_type+"ac ";
       mex += (value == true) ? "on" : "off";
+      state.ac_state = (value == true) ? 1 : 0;
     }else if (id.includes("heater")){
       mex = mex_type+"heater ";
       mex += (value == true) ? "on" : "off";
+      state.heater_state = (value == true) ? 1 : 0;
     }
 
     console.log("Sending mex:",mex)    

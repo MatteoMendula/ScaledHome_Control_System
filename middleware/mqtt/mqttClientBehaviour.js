@@ -89,21 +89,21 @@ async function onMessage(topic, message, mqttClientInstance, state, socket_io){
                 state.header_has_been_written = true; 
             }
 
-            record_file = mex.split("record:")[1].split(',');
+            record_file = mex.split("record: ")[1].split(',');
 
             state.updateStateByRecord(record_file);
 
             var out_temperature = ''+record_file[1];
-
-            if (socket_io != "no_socket"){
-                socket_io.emit("record_socket:", state.getStateAsJsonString());
-            }
             
             // MODE 1
             chageLampAndFanOnSameTemp(mqttClientInstance.mqttPublish, out_temperature, state);  
 
             // MODE 2
             // chageLampAndFanIfBound(mqttClientInstance.mqttPublish, out_temperature, state);
+
+            if (socket_io != "no_socket"){
+                socket_io.emit("record_socket:", state.getStateAsJsonString());
+            }
 
             record_file = state.getStateAsString_no_header();
 

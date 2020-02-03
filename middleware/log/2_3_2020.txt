@@ -1,0 +1,83 @@
+[LOG - initMiddlware - Mon Feb 03 2020 11:20:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initActuatorsController - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleHeater - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - handleAc - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - main - Mon Feb 03 2020 11:20:20 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - updateMinTemp - Mon Feb 03 2020 11:20:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Min temp has been updated from: 100000 to: 21.0
+[LOG - updateMaxTemp - Mon Feb 03 2020 11:20:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: -100000 to: 21.0
+[LOG - requestData - Mon Feb 03 2020 11:20:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Mon Feb 03 2020 11:20:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 21.0 to: 22.0
+[LOG - requestData - Mon Feb 03 2020 11:20:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:20:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:21:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:21:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:21:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:21:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:21:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:21:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:22:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:22:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:22:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:22:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:22:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:22:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:22:57 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:23:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:23:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:23:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:23:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:23:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:24:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:24:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:24:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:24:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:24:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:24:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:24:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:25:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:25:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:25:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:25:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:25:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:25:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:26:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:26:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:26:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:26:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:26:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:26:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:26:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:27:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:27:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:27:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:27:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:27:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:28:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:28:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:28:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:28:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:28:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Mon Feb 03 2020 11:28:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - requestData - Mon Feb 03 2020 11:28:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleFan - Mon Feb 03 2020 11:28:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - requestData - Mon Feb 03 2020 11:28:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:29:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:29:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Mon Feb 03 2020 11:29:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 22.0 to: 23.0
+[LOG - requestData - Mon Feb 03 2020 11:29:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:29:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Mon Feb 03 2020 11:29:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 23.0 to: 24.0
+[LOG - requestData - Mon Feb 03 2020 11:29:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:29:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:30:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:30:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - updateMaxTemp - Mon Feb 03 2020 11:30:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Max temp has been updated from: 24.0 to: 25.0
+[LOG - requestData - Mon Feb 03 2020 11:30:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Mon Feb 03 2020 11:30:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record

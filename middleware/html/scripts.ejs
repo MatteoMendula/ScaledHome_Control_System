@@ -26,6 +26,8 @@
         "motor14",
         "motor15"
     ];
+
+    var socket = io.connect(gui_url);
     
     var input_html_coll = document.getElementsByTagName("input");
 
@@ -58,7 +60,7 @@
 
     // console.log("gui_post_url",gui_post_url)
     // var gui_url = "<%=gui_url %>";
-    var socket = io.connect(gui_url);
+    
 
     var updateStateOnWebPage = (record) => {
 
@@ -90,6 +92,11 @@
         
         document.getElementById("t26").innerHTML = sensors_state.bedroom_2.temperature;
         document.getElementById("h26").innerHTML = sensors_state.bedroom_2.humidity;
+
+        document.getElementById("lamp").checked = (record.lamp == 0) ? false : true;
+        document.getElementById("fan").checked = (record.fan == 0) ? false : true;
+        document.getElementById("ac").checked = (record.ac == 0) ? false : true;
+        document.getElementById("heater").checked = (record.heater == 0) ? false : true;
     }
         
     socket.on('connect',function() {

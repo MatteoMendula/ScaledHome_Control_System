@@ -171,7 +171,11 @@ class houseState{
     getStateAsJsonString(){
         return JSON.stringify({
             time_record: this.last_time_record,
-            sensors: this.sensors
+            sensors: this.sensors,
+            lamp: this.lamp_state,
+            fan: this.fan_state,
+            ac: this.ac_state,
+            heater: this.heater_state
         });
     }
 
