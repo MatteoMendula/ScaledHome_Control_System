@@ -45,6 +45,11 @@ const same_temp_limit = 50;
 const min_temp_sh = 22;
 const max_temp_sh = 29;
 
+const simulation_mode = 0;
+// MODE 0: No automatic actions
+// MODE 1: Simulation find bounds using same_temp_limit
+// MODE 2: Simulation knowing the temperature bounds [min_temp_sh, max_temp_sh]
+
 // module.exports.allowed_commands = allowed_commands;
 // module.exports.allowed_motors = allowed_motors;
 
@@ -55,7 +60,8 @@ module.exports = {
     new_request_interval: new_request_interval,
     same_temp_limit: same_temp_limit,
     min_temp_sh: min_temp_sh,
-    max_temp_sh: max_temp_sh
+    max_temp_sh: max_temp_sh,
+    simulation_mode: simulation_mode
 }
 
                         

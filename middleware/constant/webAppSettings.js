@@ -1,8 +1,8 @@
-const key = "scaledhome";
+const api_key = "scaledHomeUcf";
 
 const gui_url = "http://localhost:3000";
 
 module.exports = {
-    key: key,
+    api_key: api_key,
     gui_url: gui_url
 };

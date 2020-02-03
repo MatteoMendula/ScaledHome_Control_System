@@ -34,7 +34,7 @@
     function check(checkboxElem){
         var xhr = new XMLHttpRequest();
         // xhr.open("POST", 'http://localhost:3000/mqttgui', true);
-        xhr.open("POST", gui_url+"/mqttgui", true);
+        xhr.open("POST", gui_url+"/guiSendMqttCmd", true);
         xhr.setRequestHeader('Content-Type', 'application/json');
         xhr.send(JSON.stringify({
             id: checkboxElem.id,
@@ -140,10 +140,10 @@
                 download(today_string+".csv",response);
             }
         };        
-        xhttp.open("POST", gui_url+"/mqttgetrecord", true);
+        xhttp.open("POST", gui_url+"/guiGetRecord", true);
         xhttp.setRequestHeader('Content-Type', 'application/json');
         xhttp.send(JSON.stringify({
-            key: "scaledhome"
+            key: "scaledHomeUcf"
         }));
     }
 </script> 

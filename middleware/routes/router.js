@@ -4,14 +4,13 @@ var my_router = function(io){
   var mqttClient = require("../mqtt/mqttClientInstance");
   var mqttSettings = require("../mqtt/mqttSettings");
 
+  var simulation_mode = require("../constant/houseSettings").simulation_mode;
   var homeState = require("../model/state");
 
   var web_app_settings = require("../constant/webAppSettings");
 
   var state = new homeState();
-  var mqttClient = new mqttClient(mqttSettings,state,io);
-
-  var mex_type = "cmd: ";
+  var mqttClient = new mqttClient(mqttSettings,state,io, simulation_mode);
 
   router.get('/', (req, res) => {
     console.log('Request for home received');
@@ -52,9 +51,12 @@ var my_router = function(io){
   //   res.render('contact');
   // });
 
-  router.post('/mqttgui',function(req,res){
+  router.post('/guiSendMqttCmd',function(req,res){
     var id=req.body.id;
     var value=req.body.value;
+
+    var mex_type = "cmd: ";
+
     console.log("id = "+id+", value is "+value+" type is :",mex_type);
     var mex = "error";
     if (id == "all"){
@@ -91,21 +93,33 @@ var my_router = function(io){
     res.end("ok");
   });
 
-  router.post('/mqttpythoncmd',function(req,res){
+  router.post('/pythonAPI',function(req,res){
     var key = req.body.key;
-    var cmd=req.body.cmd;
+    var type = req.body.type;
+    var value = req.body.value;
 
     var response = "error no valid key";
 
-    if (key == web_app_settings.key) {
-      response = "ok";
-      mqttClient.mqttPublish(mex_type+cmd);
+    if (key == web_app_settings.api_key) {
+      if (type == "cmd"){
+        response = "ok";
+        mqttClient.mqttPublish(type+": "+value);
+      }else if (type == "request"){
+        if (value == "last record"){
+          response = state.getLastStateAsJsonString();
+        }else if(value == "all records collected as string"){
+          response = state.getAllRecordsCollected();
+        }//else if ... different kind of requests
+      }
+    }else{
+      console.log("received req",req.body)
+      console.log("expected key",web_app_settings.api_key)
     }
 
     res.end(response);
   });
 
-  router.post('/mqttgetrecord',function(req,res){
+  router.post('/guiGetRecord',function(req,res){
 
     // console.log("received request for record",req.body)
 
@@ -113,8 +127,8 @@ var my_router = function(io){
 
     var response = "error no valid key";
 
-    if (key == web_app_settings.key) {
-      response = state.getStateToCSVFile();;
+    if (key == web_app_settings.api_key) {
+      response = state.getAllRecordsCollected();;
     }
     // console.log("sending response",response);
     res.end(response);

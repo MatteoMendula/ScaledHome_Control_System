@@ -67,7 +67,7 @@ class houseState{
 
         this.last_time_record = "initial_value";
 
-        this.to_csv_file = utility.getHeader(settings.csv_separator);
+        this.all_records_collected = utility.getHeader(settings.csv_separator);
 
     }
 
@@ -158,17 +158,17 @@ class houseState{
         };
 
 
-        this.to_csv_file += '\n' + this.getStateAsString_no_header();
+        this.all_records_collected += '\n' + this.getStateAsString_no_header();
 
         //return this.getStateAsString();
 
     }
 
-    getStateToCSVFile(){
-        return this.to_csv_file;
+    getAllRecordsCollected(){
+        return this.all_records_collected;
     }
 
-    getStateAsJsonString(){
+    getLastStateAsJsonString(){
         return JSON.stringify({
             time_record: this.last_time_record,
             sensors: this.sensors,

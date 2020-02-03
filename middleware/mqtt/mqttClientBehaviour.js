@@ -68,11 +68,13 @@ function chageLampAndFanIfBound(client, out_temperature, state){
     state.last_out_temp = out_temperature;
 }
 
-async function onMessage(topic, message, mqttClientInstance, state, socket_io){
+async function onMessage(topic, message, mqttClientInstance, state, socket_io, mode){
 
     var mex = ''+message;
 
     utility.myConsoleLog("main","new mex \""+ mex + "\" from topic \""+ topic + "\"");
+
+    // console.log("\n mode value is "+mode+"\n")
 
     if (!mex.includes("error")){
         
@@ -95,14 +97,16 @@ async function onMessage(topic, message, mqttClientInstance, state, socket_io){
 
             var out_temperature = ''+record_file[1];
             
-            // MODE 1
-            chageLampAndFanOnSameTemp(mqttClientInstance.mqttPublish, out_temperature, state);  
-
-            // MODE 2
-            // chageLampAndFanIfBound(mqttClientInstance.mqttPublish, out_temperature, state);
+            if (mode == 1){
+                // MODE 1
+                chageLampAndFanOnSameTemp(mqttClientInstance.mqttPublish, out_temperature, state);  
+            }else if (mode == 2){
+                // MODE 2
+                chageLampAndFanIfBound(mqttClientInstance.mqttPublish, out_temperature, state);
+            }
 
             if (socket_io != "no_socket"){
-                socket_io.emit("record_socket:", state.getStateAsJsonString());
+                socket_io.emit("record_socket:", state.getLastStateAsJsonString());
             }
 
             record_file = state.getStateAsString_no_header();
@@ -118,6 +122,7 @@ async function onMessage(topic, message, mqttClientInstance, state, socket_io){
                 console.log("sensors controller is off")
                 initFunctions.initSensorsController(mqttClientInstance.mqttPublish, state);
             }
+
         }else if(mex.includes("discovery_reply: ")){
             var client_id = mex.split("discovery_reply: ")[1];
             if (client_id.includes(state.sensors_controller.id)){
@@ -147,7 +152,7 @@ async function onMessage(topic, message, mqttClientInstance, state, socket_io){
     
 }
 
-function onConnect(mqttClientInstance, topic, state){	
+function onConnect(mqttClientInstance, topic, state, mode){	
     utility.myConsoleLog("main","connected to topic \"" + topic + "\"");
     // console.log("client is ",mqttClientInstance.mqttPublish)
     initFunctions.initMiddlware(mqttClientInstance.mqttPublish, state);

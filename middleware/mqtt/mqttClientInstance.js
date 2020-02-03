@@ -3,7 +3,7 @@ var mqtt = require("mqtt");
 var mqttClientBehaviour = require ("./mqttClientBehaviour");
 
 class mqttClient{
-    constructor(settings, state, socket_io="no_socket"){
+    constructor(settings, state, socket_io="no_socket", simulation_mode){
         this.client = mqtt.connect(settings.url,
         {
             clientId: settings.clientId,
@@ -28,7 +28,7 @@ class mqttClient{
         this.client.on("message",async function(topic,message){	
             // console.log("before on mex")
             // utility.myConsoleLog("main","new mex \""+ message + "\" from topic \""+ topic + "\"");
-            mqttClientBehaviour.onMessage(topic, message, closure, state, socket_io);
+            mqttClientBehaviour.onMessage(topic, message, closure, state, socket_io, simulation_mode);
             // console.log("after mex: ",message)
         });
 
