@@ -18,7 +18,7 @@ def closeMotor(pin):
 def openMotor(pin):
     kit.servo[pin].angle = getOpeningAngle(pin)
     
-#higer angle means "more open"
+#higher the angle more open is the door/motor
 def getClosingAngle(pin):
     if pin == 12:
         return 50
