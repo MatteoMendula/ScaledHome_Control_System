@@ -38,21 +38,35 @@ function handleFan(mqttPublish,action, state){
     state.fan_state = (action == "on") ? 1 : 0;
 }
 
-function handleMotors(mqttPublish,action, state,pin = "all"){
-    if (pin == "all" || settings.allowed_motors.includes(pin)){
-        var log = (action == "open") ? "Opening "+pin : "Closing "+pin;
-        utility.myConsoleLog("handleMotors",log);
-        fileManager.saveOnFile("./log","txt",utility.myStringLog("handleMotors",log));
-        mqttPublish("cmd: "+action+' '+pin);
-        // console.log("handle motors", client)
-        if (pin == "all"){
-            for (var index in settings.allowed_motors){
-                state.motors_state[index] = action;
-            }
-        }else{
-            state.motors_state[pin] = action;
-        }
+function handleMotors(mqttPublish,action, state,motor = "all"){
+    binary_action = (action == "open") ? 1 : 0;
+    var motors_to_change = [];
+    if (motor == "all"){
+        motors_to_change = settings.allowed_motors;
+    }else if (motor == "all doors"){
+        motors_to_change = settings.allowed_motors.filter(function(x){return x<7});
+    }else if (motor == "all windows"){
+        motors_to_change = settings.allowed_motors.filter(function(x){return x>7})
+    }else{
+        motors_to_change = [motor];
     }
+    mqttPublish("cmd: "+action+' '+motor);
+
+    // console.log("changing ",motors_to_change)
+
+    for (var m in motors_to_change){
+        // console.log(m)
+        state.motors_state[motors_to_change[m]] = binary_action;
+    }
+
+    // for (var i = 0; i < motors_to_change.length; i++){
+    //     state.motors_state[motors_to_change[i]] = binary_action;
+    // }
+
+    var log = (action == "open") ? "Opening "+motor : "Closing "+motor;
+    utility.myConsoleLog("handleMotors",log);
+    fileManager.saveOnFile("./log","txt",utility.myStringLog("handleMotors",log));
+    
 }
 
 function requestNewRecord(mqttPublish){

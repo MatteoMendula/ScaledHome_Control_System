@@ -67,7 +67,7 @@ class houseState{
 
         this.last_time_record = "initial_value";
 
-        this.all_records_collected = utility.getHeader(settings.csv_separator);
+        this.all_records_collected = utility.getHeader();
 
     }
 
@@ -111,11 +111,17 @@ class houseState{
         state_as_string += settings.csv_separator + this.ac_state;
         state_as_string += settings.csv_separator + this.heater_state;
 
+        for (var motor in this.motors_state) {
+            if (Object.prototype.hasOwnProperty.call(this.motors_state, motor)) {
+                state_as_string += settings.csv_separator + this.motors_state[motor];
+            }
+        }
+
         return state_as_string;
     }
 
     getStateAsString_with_header(){
-        return (utility.getHeader(settings.csv_separator)+'\n'+this.getStateAsString_no_header());
+        return (utility.getHeader()+'\n'+this.getStateAsString_no_header());
     }
 
     updateStateByRecord(record){

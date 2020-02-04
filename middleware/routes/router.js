@@ -60,17 +60,19 @@ var my_router = function(io){
 
     console.log("id = "+id+", value is "+value+" type is :",mex_type);
     var mex = "error";
-    if (id == "all"){
-        mex = mex_type + ((value == true) ? "open" : "close") + " all";
-        //state.motors -> change motors state
+    if (id.includes("all")){
+      var action = (value == true) ? "open" : "close";
+      middlwareActions.handleMotors(mqttClient.mqttPublish,action, state);
+      //state.motors -> change motors state
     }else if (id.includes("doors")){
-        mex = mex_type + ((value == true) ? "open" : "close") + " all doors";
+      var action = (value == true) ? "open" : "close";
+      middlwareActions.handleMotors(mqttClient.mqttPublish,action, state, "all doors");
     }else if (id.includes("windows")){
-        mex = mex_type + ((value == true) ? "open" : "close") + " all windows";
+      var action = (value == true) ? "open" : "close";
+      middlwareActions.handleMotors(mqttClient.mqttPublish,action, state, "all windows");
     }else if (id.includes("motor")){
-        mex = mex_type
-        mex += (value == true) ? "open" : "close";
-        mex += " "+id.substring(5, id.length);
+        var action = (value == true) ? "open" : "close";
+        middlwareActions.handleMotors(mqttClient.mqttPublish,action, state, id.substring(5, id.length));
     }else if (id.includes("lamp")){
       var action = (value == true) ? "on" : "off";
       // state.lamp_state = (value == true) ? 1 : 0;
@@ -88,6 +90,8 @@ var my_router = function(io){
       // state.heater_state = (value == true) ? 1 : 0;
       middlwareActions.handleHeater(mqttClient.mqttPublish, action, state);
     }
+
+    // console.log("-------------------------------------",state.motors_state)
 
     // console.log("Sending mex:",mex)    
     // mqttClient.mqttPublish(mex);

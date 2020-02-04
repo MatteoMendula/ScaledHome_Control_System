@@ -1,3 +1,5 @@
+var houseSettings = require("../constant/houseSettings");
+
 function myConsoleLog(caller,message,type = 0){
     var my_type;
     var my_caller = caller;
@@ -42,28 +44,37 @@ function myStringLog(caller,message,type = 0){
     return (`[LOG - ${my_caller} - ${new Date()}] type: ${my_type} - message: ${message}`);
 }
 
-function getHeader(separator){
-    var header = 'TIME'+separator
-    header += 'OUT_T[*C]'+separator
-    header += 'OUT_H[%]'+separator
-    header += 'T6[*C]'+separator
-    header += 'H6[%]'+separator
-    header += 'T12[*C]'+separator
-    header += 'H12[%]'+separator
-    header += 'T18[*C]'+separator
-    header += 'H18[%]'+separator
-    header += 'T19[*C]'+separator
-    header += 'H19[%]'+separator
-    header += 'T24[*C]'+separator
-    header += 'H24[%]'+separator
-    header += 'T25[*C]'+separator
-    header += 'H25[%]'+separator
-    header += 'T26[*C]'+separator
-    header += 'H26[%]'+separator
-    header += 'LAMP_STATE'+separator
-    header += 'FAN_STATE'+separator
-    header += 'AC_STATE'+separator
-    header += 'HEATER_STATE'
+function getHeader(){
+    var header = 'TIME'
+    header += houseSettings.csv_separator+'OUT_T[*C]'
+    header += houseSettings.csv_separator+'OUT_H[%]'
+    header += houseSettings.csv_separator+'T6[*C]'
+    header += houseSettings.csv_separator+'H6[%]'
+    header += houseSettings.csv_separator+'T12[*C]'
+    header += houseSettings.csv_separator+'H12[%]'
+    header += houseSettings.csv_separator+'T18[*C]'
+    header += houseSettings.csv_separator+'H18[%]'
+    header += houseSettings.csv_separator+'T19[*C]'
+    header += houseSettings.csv_separator+'H19[%]'
+    header += houseSettings.csv_separator+'T24[*C]'
+    header += houseSettings.csv_separator+'H24[%]'
+    header += houseSettings.csv_separator+'T25[*C]'
+    header += houseSettings.csv_separator+'H25[%]'
+    header += houseSettings.csv_separator+'T26[*C]'
+    header += houseSettings.csv_separator+'H26[%]'
+    header += houseSettings.csv_separator+'LAMP_STATE'
+    header += houseSettings.csv_separator+'FAN_STATE'
+    header += houseSettings.csv_separator+'AC_STATE'
+    header += houseSettings.csv_separator+'HEATER_STATE'
+
+    for (var motor in houseSettings.allowed_motors) {
+        if (Object.prototype.hasOwnProperty.call(houseSettings.allowed_motors, motor)) {
+            header += houseSettings.csv_separator + 'M' + motor;
+        }
+    }
+
+
+    header += 'H'
     return header
 }
 

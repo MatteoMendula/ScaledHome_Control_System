@@ -85,7 +85,7 @@ async function onMessage(topic, message, mqttClientInstance, state, socket_io, m
 
             if (!state.header_has_been_written){
 
-                var header = utility.getHeader(settings.csv_separator);
+                var header = utility.getHeader();
 
                 fileManager.saveOnFile("./data","csv",header);
                 state.header_has_been_written = true; 

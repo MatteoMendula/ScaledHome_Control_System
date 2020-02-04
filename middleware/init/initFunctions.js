@@ -45,6 +45,8 @@ function initActuatorsController(client, state){
     middlewareActions.handleAc(client,"off", state);
     middlewareActions.handleFan(client,"off", state);
     middlewareActions.handleMotors(client,"close", state);
+
+    // console.log("-------------------------------------",state.motors_state)
 }
 
 function initSensorsController(client, state){
