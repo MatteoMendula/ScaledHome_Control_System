@@ -107,6 +107,10 @@
             // console.log("new record parsed",JSON.parse(data));
             updateStateOnWebPage(JSON.parse(data));
         });
+    socket.on('disconnect', function(){
+        // console.log('user disconnected');
+        alert("Server is not connected");
+    });
 
     function download(filename, text) { 
         var element = document.createElement('a');

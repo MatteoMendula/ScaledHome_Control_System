@@ -3,6 +3,7 @@ var my_router = function(io){
   const router = express.Router();
   var mqttClient = require("../mqtt/mqttClientInstance");
   var mqttSettings = require("../mqtt/mqttSettings");
+  var middlwareActions = require("../actions/middlwareActions");
 
   var simulation_mode = require("../constant/houseSettings").simulation_mode;
   var homeState = require("../model/state");
@@ -71,25 +72,25 @@ var my_router = function(io){
         mex += (value == true) ? "open" : "close";
         mex += " "+id.substring(5, id.length);
     }else if (id.includes("lamp")){
-      mex = mex_type+"lamp ";
-      mex += (value == true) ? "on" : "off";
-      state.lamp_state = (value == true) ? 1 : 0;
+      var action = (value == true) ? "on" : "off";
+      // state.lamp_state = (value == true) ? 1 : 0;
+      middlwareActions.handleLamp(mqttClient.mqttPublish, action, state);
     }else if (id.includes("fan")){
-      mex = mex_type+"fan ";
-      mex += (value == true) ? "on" : "off";
-      state.fan_state = (value == true) ? 1 : 0;
+      var action = (value == true) ? "on" : "off";
+      // state.fan_state = (value == true) ? 1 : 0;
+      middlwareActions.handleFan(mqttClient.mqttPublish, action, state);
     }else if (id.includes("ac")){
-      mex = mex_type+"ac ";
-      mex += (value == true) ? "on" : "off";
-      state.ac_state = (value == true) ? 1 : 0;
+      var action = (value == true) ? "on" : "off";
+      // state.ac_state = (value == true) ? 1 : 0;
+      middlwareActions.handleAc(mqttClient.mqttPublish, action, state);
     }else if (id.includes("heater")){
-      mex = mex_type+"heater ";
-      mex += (value == true) ? "on" : "off";
-      state.heater_state = (value == true) ? 1 : 0;
+      var action = (value == true) ? "on" : "off";
+      // state.heater_state = (value == true) ? 1 : 0;
+      middlwareActions.handleHeater(mqttClient.mqttPublish, action, state);
     }
 
-    console.log("Sending mex:",mex)    
-    mqttClient.mqttPublish(mex);
+    // console.log("Sending mex:",mex)    
+    // mqttClient.mqttPublish(mex);
     res.end("ok");
   });
 
@@ -103,7 +104,18 @@ var my_router = function(io){
     if (key == web_app_settings.api_key) {
       if (type == "cmd"){
         response = "ok";
-        mqttClient.mqttPublish(type+": "+value);
+        // mqttClient.mqttPublish(type+": "+value);
+        if (value.includes("lamp ")){
+          middlwareActions.handleLamp(mqttClient.mqttPublish, value.split("lamp ")[1], state);
+        }else if (value.includes("fan ")){
+          middlwareActions.handleFan(mqttClient.mqttPublish, value.split("fan ")[1], state);
+        }else if (value.includes("ac ")){
+          middlwareActions.handleAc(mqttClient.mqttPublish, value.split("ac ")[1], state);
+        }else if (value.includes("heater ")){
+          middlwareActions.handleHeater(mqttClient.mqttPublish, value.split("heater ")[1], state);
+        }else{
+          console.log("unknown cmd from Python: ", value);
+        }
       }else if (type == "request"){
         if (value == "last record"){
           response = state.getLastStateAsJsonString();
@@ -111,9 +123,6 @@ var my_router = function(io){
           response = state.getAllRecordsCollected();
         }//else if ... different kind of requests
       }
-    }else{
-      console.log("received req",req.body)
-      console.log("expected key",web_app_settings.api_key)
     }
 
     res.end(response);
