@@ -878,3 +878,1591 @@
 [LOG - initSensorsController - Wed Feb 05 2020 21:40:53 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
 [LOG - requestData - Wed Feb 05 2020 21:40:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
 [LOG - main - Wed Feb 05 2020 21:40:53 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - initMiddlware - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleFan - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleMotors - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - initSensorsController - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - handleAc - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - requestData - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Wed Feb 05 2020 21:51:18 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Wed Feb 05 2020 21:51:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 21:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - handleLamp - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 21:51:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 21:51:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 21:51:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 21:51:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 21:52:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:52:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleFan - Wed Feb 05 2020 21:52:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleHeater - Wed Feb 05 2020 21:52:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleLamp - Wed Feb 05 2020 21:52:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleMotors - Wed Feb 05 2020 21:52:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 21:52:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 21:52:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 21:52:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - requestData - Wed Feb 05 2020 21:52:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleMotors - Wed Feb 05 2020 21:52:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 21:52:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 21:52:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 21:52:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - requestData - Wed Feb 05 2020 21:52:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:52:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:53:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:53:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:53:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:54:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:54:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:54:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:54:55 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:55:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 21:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 21:55:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - requestData - Wed Feb 05 2020 21:55:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 21:55:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - requestData - Wed Feb 05 2020 21:55:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - main - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initActuatorsController - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleAc - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - main - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - handleMotors - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - handleFan - Wed Feb 05 2020 21:56:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - initMiddlware - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - handleLamp - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - initActuatorsController - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleFan - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleHeater - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - main - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - handleAc - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleMotors - Wed Feb 05 2020 21:58:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - handleLamp - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 21:58:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - handleLamp - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 21:58:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 21:58:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Wed Feb 05 2020 22:00:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Wed Feb 05 2020 22:00:18 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Wed Feb 05 2020 22:00:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initActuatorsController - Wed Feb 05 2020 22:00:19 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleHeater - Wed Feb 05 2020 22:00:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - main - Wed Feb 05 2020 22:00:18 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - handleFan - Wed Feb 05 2020 22:00:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleLamp - Wed Feb 05 2020 22:00:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleMotors - Wed Feb 05 2020 22:00:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - handleAc - Wed Feb 05 2020 22:00:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - main - Wed Feb 05 2020 22:00:19 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - handleLamp - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:00:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:00:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:00:49 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:00:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:01:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:01:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:01:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:01:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:01:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:01:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:02:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:02:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:02:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:02:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:02:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:02:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:02:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:02:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:02:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:02:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:02:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:03:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:03:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:03:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:03:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:04:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:04:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:04:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:04:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:04:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:05:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:05:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:05:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:05:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:05:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:05:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:05:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:05:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:06:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:06:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:06:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:06:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:06:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:07:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:07:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:07:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:07:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:07:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:07:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:07:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:07:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:08:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:08:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:08:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:08:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:08:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:08:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:09:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:09:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:09:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:09:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:09:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:09:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:09:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:09:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:09:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:09:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:09:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:09:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:10:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:10:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:10:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:10:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:10:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:11:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:11:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:11:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:11:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:11:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:11:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:11:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:11:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:11:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:11:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:11:57 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:12:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:12:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:12:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:12:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:12:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:13:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:13:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:13:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:13:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:13:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:13:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:13:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:13:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:13:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:13:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:13:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:13:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:14:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:14:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:14:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:14:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:14:55 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:15:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:15:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:15:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:15:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:15:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:16:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:16:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:16:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:16:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:16:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:16:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:16:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:16:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:16:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:16:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:16:49 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:17:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:17:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:17:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:17:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:17:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:18:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:18:15 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:18:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:18:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:18:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:18:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:18:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:18:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:18:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:18:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:19:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:19:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:19:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:19:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:19:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:19:57 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:20:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:20:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:20:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:20:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:20:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:20:49 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:21:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:21:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:21:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:21:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:21:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:21:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:21:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:21:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:21:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:21:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:21:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:22:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:22:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:22:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:22:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:22:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:22:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:23:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:23:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:23:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:23:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:23:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:23:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:23:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:23:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:23:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:23:48 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:24:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:24:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:24:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:24:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:24:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:24:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:25:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:25:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:25:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:25:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:25:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:25:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:26:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:26:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:26:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:26:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:26:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:26:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:26:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:26:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:26:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:27:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:27:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - requestData - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:27:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:27:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:28:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:28:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:28:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:28:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:28:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:28:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:28:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:28:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:28:57 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:29:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:29:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:29:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:29:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:29:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:30:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:30:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:30:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:30:57 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:31:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:31:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:31:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:31:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:31:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:31:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:31:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:31:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:31:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:31:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:31:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:31:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:31:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:32:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:32:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:32:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:33:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:33:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:33:34 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:33:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:33:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:33:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:34:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:34:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:34:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:34:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:34:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:34:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:34:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:34:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:35:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:35:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:35:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:35:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:35:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:36:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:36:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:36:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:36:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:36:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:36:57 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:37:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:37:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:37:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:37:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:37:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:37:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:37:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:38:02 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:38:09 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:38:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:38:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:38:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:38:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:39:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:39:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:39:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:39:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:39:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:39:47 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:40:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:40:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:40:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:40:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:40:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:40:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:40:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:40:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:40:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:40:54 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:41:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:41:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:41:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:41:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:41:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:41:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:42:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:42:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:42:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:42:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:42:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:42:55 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:43:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:43:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:43:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:43:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:44:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:44:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:44:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:44:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:44:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:44:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:44:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:44:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:44:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:44:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:45:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:45:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:45:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:45:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:45:48 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:46:00 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:46:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:46:22 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:46:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:46:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:46:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:47:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:47:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:47:29 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:47:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:47:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:47:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:47:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:47:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:47:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:47:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:48:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:48:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:48:26 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:48:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:48:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:48:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:49:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:49:19 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:49:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:49:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:49:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:50:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:50:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:50:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:50:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:50:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:50:46 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:51:03 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:51:11 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:51:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:51:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:51:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:51:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:51:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:51:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:51:42 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 12
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:51:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:51:53 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:52:12 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:52:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:52:37 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:52:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:52:49 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:53:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:53:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:53:30 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:53:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:53:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:53:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:54:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:54:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:54:25 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:54:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:54:41 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:54:43 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:54:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:54:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:55:04 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:55:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:55:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleFan - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 4
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 8
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 14
+[LOG - handleMotors - Wed Feb 05 2020 22:55:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 15
+[LOG - requestData - Wed Feb 05 2020 22:55:49 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:55:56 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:56:07 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:56:16 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:56:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:56:36 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 1
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 3
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 5
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 9
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 10
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 13
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:56:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:56:55 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:57:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:57:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:57:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleAc - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleHeater - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater on
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 0
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 2
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 6
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:57:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:57:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 11
+[LOG - handleMotors - Wed Feb 05 2020 22:57:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:57:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:57:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:57:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:57:50 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:57:59 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:58:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:58:17 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:58:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:58:39 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - handleLamp - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp on
+[LOG - handleFan - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan on
+[LOG - handleAc - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac on
+[LOG - handleHeater - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 0
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 1
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 2
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 3
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 4
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 5
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 6
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 8
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 9
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 10
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 11
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 12
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 13
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing 14
+[LOG - handleMotors - Wed Feb 05 2020 22:58:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Opening 15
+[LOG - requestData - Wed Feb 05 2020 22:58:48 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:59:05 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:59:21 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:59:40 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 22:59:51 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:00:08 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:00:14 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:00:23 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:00:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:00:58 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:01:10 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:01:28 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:01:35 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:01:44 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:01:52 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:02:01 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Wed Feb 05 2020 23:02:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleHeater - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleLamp - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleAc - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleFan - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleMotors - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Wed Feb 05 2020 23:02:31 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - initSensorsController - Wed Feb 05 2020 23:02:32 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Wed Feb 05 2020 23:02:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initSensorsController - Wed Feb 05 2020 23:02:32 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Wed Feb 05 2020 23:02:32 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Wed Feb 05 2020 23:02:32 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
