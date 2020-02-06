@@ -64,3 +64,18 @@ td{
 .onoffswitch-checkbox:checked + .onoffswitch-label .onoffswitch-switch {
     right: 0px; 
 }
+
+
+.redText{
+    color: red;
+    font-weight: bold;
+    margin: 1rem;
+    margin-left: 10rem;
+}
+
+.greenText{
+    color: green;
+    font-weight: bold;
+    margin: 1rem;
+    margin-left: 10rem;
+}

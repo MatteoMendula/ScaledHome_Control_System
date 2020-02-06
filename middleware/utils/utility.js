@@ -69,12 +69,9 @@ function getHeader(){
 
     for (var motor in houseSettings.allowed_motors) {
         if (Object.prototype.hasOwnProperty.call(houseSettings.allowed_motors, motor)) {
-            header += houseSettings.csv_separator + 'M' + motor;
+            header += houseSettings.csv_separator + 'M' + houseSettings.allowed_motors[motor];
         }
     }
-
-
-    header += 'H'
     return header
 }
 

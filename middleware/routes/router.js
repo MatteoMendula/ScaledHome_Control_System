@@ -109,6 +109,7 @@ var my_router = function(io){
       if (type == "cmd"){
         response = "ok";
         // mqttClient.mqttPublish(type+": "+value);
+
         if (value.includes("lamp ")){
           middlwareActions.handleLamp(mqttClient.mqttPublish, value.split("lamp ")[1], state);
         }else if (value.includes("fan ")){
@@ -117,6 +118,15 @@ var my_router = function(io){
           middlwareActions.handleAc(mqttClient.mqttPublish, value.split("ac ")[1], state);
         }else if (value.includes("heater ")){
           middlwareActions.handleHeater(mqttClient.mqttPublish, value.split("heater ")[1], state);
+        }else if (value.includes("all")){
+          middlwareActions.handleMotors(mqttClient.mqttPublish, value.split(" all")[0], state);
+        }else if (value.includes("doors")){
+          middlwareActions.handleMotors(mqttClient.mqttPublish, value.split(" doors")[0], state, "all doors");
+        }else if (value.includes("windows")){
+          middlwareActions.handleMotors(mqttClient.mqttPublish, value.split(" windows")[0], state, "all windows");
+        }else if (value.includes("motor")){
+          //console.log("-----------------------",value, value.split(" motor "))
+          middlwareActions.handleMotors(mqttClient.mqttPublish, value.split(" motor")[0], state, value.split(" motor ")[1]);
         }else{
           console.log("unknown cmd from Python: ", value);
         }

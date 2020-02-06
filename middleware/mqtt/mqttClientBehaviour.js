@@ -106,6 +106,7 @@ async function onMessage(topic, message, mqttClientInstance, state, socket_io, m
             }
 
             if (socket_io != "no_socket"){
+                // console.log("\n",state.getLastStateAsJsonString())
                 socket_io.emit("record_socket:", state.getLastStateAsJsonString());
             }
 

@@ -60,9 +60,47 @@
 
     // console.log("gui_post_url",gui_post_url)
     // var gui_url = "<%=gui_url %>";
-    
+    var resetStateOnWebPage = () => {
+        // console.log("new record inside updateStateOnWebPage",record);
+        document.getElementById("time").innerHTML = "";
+        document.getElementById("t4").innerHTML = "";
+        document.getElementById("h4").innerHTML = "";
+        document.getElementById("t6").innerHTML = "";
+        document.getElementById("h6").innerHTML = "";
+        document.getElementById("t12").innerHTML = "";
+        document.getElementById("h12").innerHTML = "";
+        document.getElementById("t18").innerHTML = "";
+        document.getElementById("h18").innerHTML = "";
+        document.getElementById("t19").innerHTML = "";
+        document.getElementById("h19").innerHTML = "";
+        document.getElementById("t24").innerHTML = "";
+        document.getElementById("h24").innerHTML = "";
+        document.getElementById("t25").innerHTML = "";
+        document.getElementById("h25").innerHTML = "";
+        document.getElementById("t26").innerHTML = "";
+        document.getElementById("h26").innerHTML = "";
+        document.getElementById("lamp").checked = false;
+        document.getElementById("fan").checked = false;
+        document.getElementById("ac").checked = false;
+        document.getElementById("heater").checked = false;
+        document.getElementById("motor0").checked = false;
+        document.getElementById("motor1").checked = false;
+        document.getElementById("motor2").checked = false;
+        document.getElementById("motor3").checked = false;
+        document.getElementById("motor4").checked = false;
+        document.getElementById("motor5").checked = false;
+        document.getElementById("motor6").checked = false;
+        document.getElementById("motor8").checked = false;
+        document.getElementById("motor9").checked = false;
+        document.getElementById("motor10").checked = false;
+        document.getElementById("motor11").checked = false;
+        document.getElementById("motor12").checked = false;
+        document.getElementById("motor13").checked = false;
+        document.getElementById("motor14").checked = false;
+        document.getElementById("motor15").checked = false;
+    }
 
-    var updateStateOnWebPage = (record) => {
+    var updateStateOnWebPageByRecord = (record) => {
 
         // console.log("new record inside updateStateOnWebPage",record);
 
@@ -97,19 +135,44 @@
         document.getElementById("fan").checked = (record.fan == 0) ? false : true;
         document.getElementById("ac").checked = (record.ac == 0) ? false : true;
         document.getElementById("heater").checked = (record.heater == 0) ? false : true;
+
+        var motors = record.motors;
+        document.getElementById("motor0").checked = (motors["0"] == 0) ? false : true;
+        document.getElementById("motor1").checked = (motors["1"] == 0) ? false : true;
+        document.getElementById("motor2").checked = (motors["2"] == 0) ? false : true;
+        document.getElementById("motor3").checked = (motors["3"] == 0) ? false : true;
+        document.getElementById("motor4").checked = (motors["4"] == 0) ? false : true;
+        document.getElementById("motor5").checked = (motors["5"] == 0) ? false : true;
+        document.getElementById("motor6").checked = (motors["6"] == 0) ? false : true;
+
+        document.getElementById("motor8").checked = (motors["8"] == 0) ? false : true;
+        document.getElementById("motor9").checked = (motors["9"] == 0) ? false : true;
+        document.getElementById("motor10").checked = (motors["10"] == 0) ? false : true;
+        document.getElementById("motor11").checked = (motors["11"] == 0) ? false : true;
+        document.getElementById("motor12").checked = (motors["12"] == 0) ? false : true;
+        document.getElementById("motor13").checked = (motors["13"] == 0) ? false : true;
+        document.getElementById("motor14").checked = (motors["14"] == 0) ? false : true;
+        document.getElementById("motor15").checked = (motors["15"] == 0) ? false : true;
     }
         
     socket.on('connect',function() {
         console.log('Client has connected to the server!');
+        document.getElementById("status_bar").innerHTML = "Connected!"
+        document.getElementById("status_bar").classList.remove("redText");
+        document.getElementById("status_bar").classList.add("greenText");
     });
     socket.on("record_socket:", function (data) {
             // console.log("new record",data);
             // console.log("new record parsed",JSON.parse(data));
-            updateStateOnWebPage(JSON.parse(data));
+            updateStateOnWebPageByRecord(JSON.parse(data));
         });
     socket.on('disconnect', function(){
+        document.getElementById("status_bar").innerHTML = "Not connected!"
+        document.getElementById("status_bar").classList.remove("greenText");
+        document.getElementById("status_bar").classList.add("redText");
+        resetStateOnWebPage();
         // console.log('user disconnected');
-        alert("Server is not connected");
+        // alert("Server is not connected");
     });
 
     function download(filename, text) { 

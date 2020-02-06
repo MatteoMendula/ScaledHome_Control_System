@@ -181,7 +181,8 @@ class houseState{
             lamp: this.lamp_state,
             fan: this.fan_state,
             ac: this.ac_state,
-            heater: this.heater_state
+            heater: this.heater_state,
+            motors: this.motors_state
         });
     }
 
