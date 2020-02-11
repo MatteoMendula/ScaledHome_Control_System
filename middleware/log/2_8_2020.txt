@@ -1,0 +1,24 @@
+[LOG - initMiddlware - Sat Feb 08 2020 20:50:38 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initMiddlware - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initActuatorsController - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleHeater - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleFan - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleLamp - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleMotors - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - initSensorsController - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - handleAc - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - requestData - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - main - Sat Feb 08 2020 20:55:13 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
+[LOG - requestData - Sat Feb 08 2020 20:55:24 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initActuatorsController - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - main - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - handleLamp - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleAc - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleMotors - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - handleFan - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - main - Sat Feb 08 2020 20:56:18 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on

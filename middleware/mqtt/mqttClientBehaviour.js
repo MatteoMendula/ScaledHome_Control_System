@@ -14,7 +14,6 @@ function chageLampAndFanOnSameTemp(client, out_temperature, state){
     if (out_temperature > state.max_temperature_SH){
         state.updateMaxTemp(out_temperature);
     }
-    // check if it is in a delta range?
     if (state.last_out_temp == out_temperature){
         state.same_temp_counter++;
         console.log("same temperature counter:",state.same_temp_counter);
@@ -59,7 +58,6 @@ function chageLampAndFanIfBound(client, out_temperature, state){
     if (out_temperature > state.max_temperature_SH){
         state.updateMaxTemp(out_temperature);
     }
-    // check if it is in a delta range?
     if(out_temperature == settings.max_temp_sh){
         changeLampAndFanState("upper");
     }else if(out_temperature == settings.min_temp_sh){
@@ -73,9 +71,6 @@ async function onMessage(topic, message, mqttClientInstance, state, socket_io, m
     var mex = ''+message;
 
     utility.myConsoleLog("main","new mex \""+ mex + "\" from topic \""+ topic + "\"");
-
-    // console.log("\n mode value is "+mode+"\n")
-
     if (!mex.includes("error")){
         
         var record_file = undefined;

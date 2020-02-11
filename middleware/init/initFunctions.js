@@ -8,10 +8,8 @@ async function initMiddlware(mqttPublish, state){
     fileManager.saveOnFile("./log","txt",utility.myStringLog("initMiddlware",log));
 
     // var control = state.actuators_controller.state == 0 || state.sensors_controller.state == 0 ; 
-
     var control = false;
-
-    // console.log(mqttPublish)
+    
     do{
         mqttPublish("discovery: middleware looking for clients");
         
@@ -45,15 +43,12 @@ function initActuatorsController(client, state){
     middlewareActions.handleAc(client,"off", state);
     middlewareActions.handleFan(client,"off", state);
     middlewareActions.handleMotors(client,"close", state);
-
-    // console.log("-------------------------------------",state.motors_state)
 }
 
 function initSensorsController(client, state){
     var log = state.sensors_controller.id+" init procedure";
     utility.myConsoleLog("initSensorsController",log);
     fileManager.saveOnFile("./log","txt",utility.myStringLog("initSensorsController",log));
-
     middlewareActions.requestNewRecord(client);
 }
 

@@ -1,0 +1,18 @@
+[LOG - initMiddlware - Tue Feb 11 2020 17:21:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Tue Feb 11 2020 17:21:06 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Tue Feb 11 2020 17:21:06 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Tue Feb 11 2020 17:21:06 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - requestData - Tue Feb 11 2020 17:21:20 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Tue Feb 11 2020 17:21:27 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - requestData - Tue Feb 11 2020 17:21:33 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - initMiddlware - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
+[LOG - initSensorsController - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: sensors_controller init procedure
+[LOG - requestData - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Requesting new record
+[LOG - main - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Warining - message: sensors_controller is on
+[LOG - initActuatorsController - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: actuators_controller init procedure
+[LOG - handleLamp - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning lamp off
+[LOG - handleHeater - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning heater off
+[LOG - handleAc - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning ac off
+[LOG - handleFan - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Turning fan off
+[LOG - handleMotors - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Info - message: Closing all
+[LOG - main - Tue Feb 11 2020 17:22:13 GMT-0500 (Eastern Standard Time)] type: Warining - message: actuators_controller is on
