@@ -110,26 +110,26 @@
         document.getElementById("t4").innerHTML = sensors_state.outside.temperature;
         document.getElementById("h4").innerHTML = sensors_state.outside.humidity;
 
-        document.getElementById("t6").innerHTML = sensors_state.bedroom_1.temperature;
-        document.getElementById("h6").innerHTML = sensors_state.bedroom_1.humidity;
+        document.getElementById("t6").innerHTML = sensors_state.sensor_6.temperature;
+        document.getElementById("h6").innerHTML = sensors_state.sensor_6.humidity;
 
-        document.getElementById("t12").innerHTML = sensors_state.kitchen_1.temperature;
-        document.getElementById("h12").innerHTML = sensors_state.kitchen_1.humidity;
+        document.getElementById("t12").innerHTML = sensors_state.sensor_12.temperature;
+        document.getElementById("h12").innerHTML = sensors_state.sensor_12.humidity;
         
-        document.getElementById("t18").innerHTML = sensors_state.kitchen_2.temperature;
-        document.getElementById("h18").innerHTML = sensors_state.kitchen_2.humidity;
+        document.getElementById("t18").innerHTML = sensors_state.sensor_18.temperature;
+        document.getElementById("h18").innerHTML = sensors_state.sensor_18.humidity;
         
-        document.getElementById("t19").innerHTML = sensors_state.bathroom.temperature;
-        document.getElementById("h19").innerHTML = sensors_state.bathroom.humidity;
+        document.getElementById("t19").innerHTML = sensors_state.sensor_19.temperature;
+        document.getElementById("h19").innerHTML = sensors_state.sensor_19.humidity;
         
-        document.getElementById("t24").innerHTML = sensors_state.living_room_1.temperature;
-        document.getElementById("h24").innerHTML = sensors_state.living_room_1.humidity;
+        document.getElementById("t24").innerHTML = sensors_state.sensor_24.temperature;
+        document.getElementById("h24").innerHTML = sensors_state.sensor_24.humidity;
 
-        document.getElementById("t25").innerHTML = sensors_state.living_room_2.temperature;
-        document.getElementById("h25").innerHTML = sensors_state.living_room_2.humidity;
+        document.getElementById("t25").innerHTML = sensors_state.sensor_25.temperature;
+        document.getElementById("h25").innerHTML = sensors_state.sensor_25.humidity;
         
-        document.getElementById("t26").innerHTML = sensors_state.bedroom_2.temperature;
-        document.getElementById("h26").innerHTML = sensors_state.bedroom_2.humidity;
+        document.getElementById("t26").innerHTML = sensors_state.sensor_26.temperature;
+        document.getElementById("h26").innerHTML = sensors_state.sensor_26.humidity;
 
         document.getElementById("lamp").checked = (record.lamp == 0) ? false : true;
         document.getElementById("fan").checked = (record.fan == 0) ? false : true;
@@ -137,22 +137,25 @@
         document.getElementById("heater").checked = (record.heater == 0) ? false : true;
 
         var motors = record.motors;
-        document.getElementById("motor0").checked = (motors["0"] == 0) ? false : true;
-        document.getElementById("motor1").checked = (motors["1"] == 0) ? false : true;
-        document.getElementById("motor2").checked = (motors["2"] == 0) ? false : true;
-        document.getElementById("motor3").checked = (motors["3"] == 0) ? false : true;
-        document.getElementById("motor4").checked = (motors["4"] == 0) ? false : true;
-        document.getElementById("motor5").checked = (motors["5"] == 0) ? false : true;
-        document.getElementById("motor6").checked = (motors["6"] == 0) ? false : true;
 
-        document.getElementById("motor8").checked = (motors["8"] == 0) ? false : true;
-        document.getElementById("motor9").checked = (motors["9"] == 0) ? false : true;
-        document.getElementById("motor10").checked = (motors["10"] == 0) ? false : true;
-        document.getElementById("motor11").checked = (motors["11"] == 0) ? false : true;
-        document.getElementById("motor12").checked = (motors["12"] == 0) ? false : true;
-        document.getElementById("motor13").checked = (motors["13"] == 0) ? false : true;
-        document.getElementById("motor14").checked = (motors["14"] == 0) ? false : true;
-        document.getElementById("motor15").checked = (motors["15"] == 0) ? false : true;
+        // console.log(motors);
+
+        document.getElementById("motor0").checked = (motors["motor0"] == 0) ? false : true;
+        document.getElementById("motor1").checked = (motors["motor1"] == 0) ? false : true;
+        document.getElementById("motor2").checked = (motors["motor2"] == 0) ? false : true;
+        document.getElementById("motor3").checked = (motors["motor3"] == 0) ? false : true;
+        document.getElementById("motor4").checked = (motors["motor4"] == 0) ? false : true;
+        document.getElementById("motor5").checked = (motors["motor5"] == 0) ? false : true;
+        document.getElementById("motor6").checked = (motors["motor6"] == 0) ? false : true;
+
+        document.getElementById("motor8").checked = (motors["motor8"] == 0) ? false : true;
+        document.getElementById("motor9").checked = (motors["motor9"] == 0) ? false : true;
+        document.getElementById("motor10").checked = (motors["motor10"] == 0) ? false : true;
+        document.getElementById("motor11").checked = (motors["motor11"] == 0) ? false : true;
+        document.getElementById("motor12").checked = (motors["motor12"] == 0) ? false : true;
+        document.getElementById("motor13").checked = (motors["motor13"] == 0) ? false : true;
+        document.getElementById("motor14").checked = (motors["motor14"] == 0) ? false : true;
+        document.getElementById("motor15").checked = (motors["motor15"] == 0) ? false : true;
     }
         
     socket.on('connect',function() {

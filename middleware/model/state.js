@@ -35,31 +35,31 @@ class houseState{
                 temperature: "inital_value",
                 humidity: "inital_value"
             },
-            bedroom_1: {
+            sensor_6: {
                 temperature: "inital_value",
                 humidity: "inital_value"
             },
-            kitchen_1: {
+            sensor_12: {
                 temperature: "inital_value",
                 humidity: "inital_value"
             },
-            kitchen_2: {
+            sensor_18: {
                 temperature: "inital_value",
                 humidity: "inital_value"
             },
-            bathroom: {
+            sensor_19: {
                 temperature: "inital_value",
                 humidity: "inital_value"
             },
-            living_room_1: {
+            sensor_24: {
                 temperature: "inital_value",
                 humidity: "inital_value"
             },
-            living_room_2: {
+            sensor_25: {
                 temperature: "inital_value",
                 humidity: "inital_value"
             },
-            bedroom_2: {
+            sensor_26: {
                 temperature: "inital_value",
                 humidity: "inital_value"
             }
@@ -91,20 +91,20 @@ class houseState{
         var state_as_string = this.last_time_record;
         state_as_string += settings.csv_separator + this.sensors.outside.temperature;
         state_as_string += settings.csv_separator + this.sensors.outside.humidity;
-        state_as_string += settings.csv_separator + this.sensors.bedroom_1.temperature;
-        state_as_string += settings.csv_separator + this.sensors.bedroom_1.humidity;
-        state_as_string += settings.csv_separator + this.sensors.kitchen_1.temperature;
-        state_as_string += settings.csv_separator + this.sensors.kitchen_1.humidity;
-        state_as_string += settings.csv_separator + this.sensors.kitchen_2.temperature;
-        state_as_string += settings.csv_separator + this.sensors.kitchen_2.humidity;
-        state_as_string += settings.csv_separator + this.sensors.bathroom.temperature;
-        state_as_string += settings.csv_separator + this.sensors.bathroom.humidity;
-        state_as_string += settings.csv_separator + this.sensors.living_room_1.temperature;
-        state_as_string += settings.csv_separator + this.sensors.living_room_1.humidity;
-        state_as_string += settings.csv_separator + this.sensors.living_room_2.temperature;
-        state_as_string += settings.csv_separator + this.sensors.living_room_2.humidity;
-        state_as_string += settings.csv_separator + this.sensors.bedroom_2.temperature;
-        state_as_string += settings.csv_separator + this.sensors.bedroom_2.humidity;
+        state_as_string += settings.csv_separator + this.sensors.sensor_6.temperature;
+        state_as_string += settings.csv_separator + this.sensors.sensor_6.humidity;
+        state_as_string += settings.csv_separator + this.sensors.sensor_12.temperature;
+        state_as_string += settings.csv_separator + this.sensors.sensor_12.humidity;
+        state_as_string += settings.csv_separator + this.sensors.sensor_18.temperature;
+        state_as_string += settings.csv_separator + this.sensors.sensor_18.humidity;
+        state_as_string += settings.csv_separator + this.sensors.sensor_19.temperature;
+        state_as_string += settings.csv_separator + this.sensors.sensor_19.humidity;
+        state_as_string += settings.csv_separator + this.sensors.sensor_24.temperature;
+        state_as_string += settings.csv_separator + this.sensors.sensor_24.humidity;
+        state_as_string += settings.csv_separator + this.sensors.sensor_25.temperature;
+        state_as_string += settings.csv_separator + this.sensors.sensor_25.humidity;
+        state_as_string += settings.csv_separator + this.sensors.sensor_26.temperature;
+        state_as_string += settings.csv_separator + this.sensors.sensor_26.humidity;
 
         state_as_string += settings.csv_separator + this.lamp_state;
         state_as_string += settings.csv_separator + this.fan_state;
@@ -133,31 +133,31 @@ class houseState{
                 temperature: record_list[1],
                 humidity: record_list[2]
             },
-            bedroom_1: {
+            sensor_6: {
                 temperature: record_list[3],
                 humidity: record_list[4]
             },
-            kitchen_1: {
+            sensor_12: {
                 temperature: record_list[5],
                 humidity: record_list[6]
             },
-            kitchen_2: {
+            sensor_18: {
                 temperature: record_list[7],
                 humidity: record_list[8]
             },
-            bathroom: {
+            sensor_19: {
                 temperature: record_list[9],
                 humidity: record_list[10]
             },
-            living_room_1: {
+            sensor_24: {
                 temperature: record_list[11],
                 humidity: record_list[12]
             },
-            living_room_2: {
+            sensor_25: {
                 temperature: record_list[13],
                 humidity: record_list[14]
             },
-            bedroom_2: {
+            sensor_26: {
                 temperature: record_list[15],
                 humidity: record_list[16]
             }

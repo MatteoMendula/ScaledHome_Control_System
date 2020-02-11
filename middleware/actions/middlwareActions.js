@@ -56,8 +56,11 @@ function handleMotors(mqttPublish,action, state,motor = "all"){
 
     for (var m in motors_to_change){
         // console.log(m)
-        state.motors_state[motors_to_change[m]] = binary_action;
+        state.motors_state['motor'+motors_to_change[m]] = binary_action;
     }
+
+    // console.log('motors_state', state.motors_state)
+    // console.log('sensors',state.sensors)
 
     // for (var i = 0; i < motors_to_change.length; i++){
     //     state.motors_state[motors_to_change[i]] = binary_action;
