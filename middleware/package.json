@@ -8,10 +8,10 @@
   "description": "",
   "main": "homeController.js",
   "scripts": {
-    "start": "",
+    "start": "node app.js",
     "test": "mocha"
   },
-  "author": "",
+  "author": "Matteo Mendula",
   "license": "ISC",
   "dependencies": {
     "ejs": "^3.0.1",

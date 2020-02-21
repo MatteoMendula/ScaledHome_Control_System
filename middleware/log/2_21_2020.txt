@@ -1,0 +1,1 @@
+[LOG - initMiddlware - Fri Feb 21 2020 17:33:45 GMT-0500 (Eastern Standard Time)] type: Info - message: Middleware init procedure
