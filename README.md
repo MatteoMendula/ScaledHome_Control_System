@@ -218,3 +218,29 @@ client.on("connect",function(){
 1. Be sure that the two controllers are running and that the corresponding raspberry pi are connected to the network
 2. With NodeJS installed on the desired machine, run the commands: `$ npm install` and then `$ npm start` in the main folder of the repository to install the required dependencies and start the application.
 3. To check if the application is working properly open the browser and go to `http://localhost:3000/` to interact with the ScaledHome system through the Web GUI.
+4. Then the REST API will reply to post requests with the following parameters:
+	- key: `scaledHomeUcf`
+	- type: `cmd`/`request`
+	- value: the spefic required action (`last record` or `all records collected as string` in case of a `request` type)
+The following is a simple example of usage of the API to handle the lamp state
+```python
+def handleLamp(state):
+    value = "lamp on" if state==1 else "lamp off"
+    data = {    
+        "key": api_key, 
+        "type": "cmd",
+        "value": value
+    }
+    response = requests.post(url = api_endpoint, data = data)  
+    pastebin_url = response.text 
+    print("[Handle lamp action: {0}] Reponse is: {1}".format(value,pastebin_url)) 
+}
+```
+The following are the possibile combinations of types and values:
+	- type: `cmd`
+		- value: `lamp`/`heater`/`fan`/`ac` `on`/`off`, `open`/`close` motor [`0-6`,`7-15`], `open`/`close` `all`/`all windows`/`all doors`
+	- type: `request`
+		- value: `last record`, `all records collected as string`
+
+The following picture shows the mapping between the sensors and the actuators indexes and their location inside the house
+![](https://github.com/MatteoMendula/UCF_ScaledHomeMqtt/blob/master/imgs/Architecture%20ScaledHome%201.png?raw=true)
