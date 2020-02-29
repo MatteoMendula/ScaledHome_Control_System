@@ -238,7 +238,10 @@ def handleLamp(state):
 ```
 The following are the possibile combinations of types and values:
 - type: `cmd`
-	- value: `lamp`/`heater`/`fan`/`ac` `on`/`off`, `open`/`close` motor [`0-6`,`7-15`], `open`/`close` `all`/`all windows`/`all doors`
+	- value: 
+		- `lamp`/`heater`/`fan`/`ac` `on`/`off`
+		- `open`/`close` motor [`0-6`,`7-15`]
+		- `open`/`close` `all`/`all windows`/`all doors`
 - type: `request`
 	- value: `last record`, `all records collected as string`
 
