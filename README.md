@@ -215,4 +215,6 @@ client.on("connect",function(){
 }
 ```
 ## Getting Started
-Simply run all the clients and send instruction or collect data on your homeController.
+1. Be sure that the two controllers are running and that the corresponding raspberry pi are connected to the network
+2. With NodeJS installed on the desired machine, run the commands: `$ npm install` and then `$ npm start` in the main folder of the repository to install the required dependencies and start the application.
+3. To check if the application is working properly open the browser and go to `http://localhost:3000/` to interact with the ScaledHome system through the Web GUI.
