@@ -243,7 +243,9 @@ The following are the possibile combinations of types and values:
 		- `open`/`close` motor [`0-6`,`7-15`]
 		- `open`/`close` `all`/`all windows`/`all doors`
 - type: `request`
-	- value: `last record`, `all records collected as string`
+	- value: 
+		- `last record`
+		- `all records collected as string`
 
 The following picture shows the mapping between the sensors and the actuators indexes and their location inside the house
 ![](https://github.com/MatteoMendula/UCF_ScaledHomeMqtt/blob/master/imgs/layout%20with%20motors%20and%20rooms.jpg?raw=true)
