@@ -237,9 +237,9 @@ def handleLamp(state):
 }
 ```
 The following are the possibile combinations of types and values:
-1. type: `cmd`
+- type: `cmd`
 	- value: `lamp`/`heater`/`fan`/`ac` `on`/`off`, `open`/`close` motor [`0-6`,`7-15`], `open`/`close` `all`/`all windows`/`all doors`
-2. type: `request`
+- type: `request`
 	- value: `last record`, `all records collected as string`
 
 The following picture shows the mapping between the sensors and the actuators indexes and their location inside the house
